@@ -42,16 +42,16 @@ SOFTWARE.
 
 | Module | Description | Repository |
 | --- | --- | --- |
-| [GenXdev.AI](#genxdev.ai) | A Windows PowerShell module for local AI related operations | [📁 GenXdev.AI](https://github.com/genXdev/GenXdev.AI) |
-| [GenXdev.Coding](#genxdev.coding) | A Windows PowerShell module that helps being more productive with coding tasks. | [📁 GenXdev.Coding](https://github.com/genXdev/GenXdev.Coding) |
-| [GenXdev.Console](#genxdev.console) | A Windows PowerShell module for enhancing the commandline experience | [📁 GenXdev.Console](https://github.com/genXdev/GenXdev.Console) |
-| [GenXdev.Data](#genxdev.data) | A Windows PowerShell module for enhancing the commandline experience | [📁 GenXdev.Data](https://github.com/genXdev/GenXdev.Data) |
-| [GenXdev.FileSystem](#genxdev.filesystem) | A Windows PowerShell module for basic and advanced file management tasks | [📁 GenXdev.FileSystem](https://github.com/genXdev/GenXdev.FileSystem) |
-| [GenXdev.Helpers](#genxdev.helpers) | A Windows PowerShell module with helpers mostly used by other GenXdev modules | [📁 GenXdev.Helpers](https://github.com/genXdev/GenXdev.Helpers) |
-| [GenXdev.Media](#genxdev.media) | A Windows PowerShell module that helps with converting media files like pictures and video files | [📁 GenXdev.Media](https://github.com/genXdev/GenXdev.Media) |
-| [GenXdev.Queries](#genxdev.queries) | A Windows PowerShell module for finding resources and information on the internet | [📁 GenXdev.Queries](https://github.com/genXdev/GenXdev.Queries) |
-| [GenXdev.Webbrowser](#genxdev.webbrowser) | PowerShell module for webbrowser operations | [📁 GenXdev.Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser) |
-| [GenXdev.Windows](#genxdev.windows) | PowerShell module for windows operations | [📁 GenXdev.Windows](https://github.com/genXdev/GenXdev.Windows) |
+| [GenXdev.AI](#genxdevai) | A Windows PowerShell module for local AI related operations | [📁 GenXdev.AI](https://github.com/genXdev/GenXdev.AI) |
+| [GenXdev.Coding](#genxdevcoding) | A Windows PowerShell module that helps being more productive with coding tasks. | [📁 GenXdev.Coding](https://github.com/genXdev/GenXdev.Coding) |
+| [GenXdev.Console](#genxdevconsole) | A Windows PowerShell module for enhancing the commandline experience | [📁 GenXdev.Console](https://github.com/genXdev/GenXdev.Console) |
+| [GenXdev.Data](#genxdevdata) | A Windows PowerShell module for enhancing the commandline experience | [📁 GenXdev.Data](https://github.com/genXdev/GenXdev.Data) |
+| [GenXdev.FileSystem](#genxdevfilesystem) | A Windows PowerShell module for basic and advanced file management tasks | [📁 GenXdev.FileSystem](https://github.com/genXdev/GenXdev.FileSystem) |
+| [GenXdev.Helpers](#genxdevhelpers) | A Windows PowerShell module with helpers mostly used by other GenXdev modules | [📁 GenXdev.Helpers](https://github.com/genXdev/GenXdev.Helpers) |
+| [GenXdev.Media](#genxdevmedia) | A Windows PowerShell module that helps with converting media files like pictures and video files | [📁 GenXdev.Media](https://github.com/genXdev/GenXdev.Media) |
+| [GenXdev.Queries](#genxdevqueries) | A Windows PowerShell module for finding resources and information on the internet | [📁 GenXdev.Queries](https://github.com/genXdev/GenXdev.Queries) |
+| [GenXdev.Webbrowser](#genxdevwebbrowser) | PowerShell module for webbrowser operations | [📁 GenXdev.Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser) |
+| [GenXdev.Windows](#genxdevwindows) | PowerShell module for windows operations | [📁 GenXdev.Windows](https://github.com/genXdev/GenXdev.Windows) |
 
 <br/><hr/><br/>
 
