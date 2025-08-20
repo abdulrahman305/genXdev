@@ -41,7 +41,7 @@ SOFTWARE.
 ## Module Overview
 
 | Module | Description | Repository |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [GenXdev.AI](#genxdevai) | A Windows PowerShell module for local AI related operations | [📁 GenXdev.AI](https://github.com/genXdev/GenXdev.AI) |
 | [GenXdev.Coding](#genxdevcoding) | A Windows PowerShell module that helps being more productive with coding tasks. | [📁 GenXdev.Coding](https://github.com/genXdev/GenXdev.Coding) |
 | [GenXdev.Console](#genxdevconsole) | A Windows PowerShell module for enhancing the commandline experience | [📁 GenXdev.Console](https://github.com/genXdev/GenXdev.Console) |
@@ -62,7 +62,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-EmoticonsToText](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-emoticonstotext) | emojify | Enhances text by adding contextually appropriate emoticons using AI. |
 | [Add-GenXdevMCPServerToLMStudio](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-genxdevmcpservertolmstudio) | &nbsp; | Adds the GenXdev MCP server to LM Studio using a deeplink configuration. |
 | [Add-ImageDirectories](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-imagedirectories) | addimgdir | Adds directories to the configured image directories for GenXdev.AI operations. |
@@ -163,7 +163,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-EmoticonsToText](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-emoticonstotext) | emojify | Enhances text by adding contextually appropriate emoticons using AI. |
 | [Add-GenXdevMCPServerToLMStudio](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-genxdevmcpservertolmstudio) | &nbsp; | Adds the GenXdev MCP server to LM Studio using a deeplink configuration. |
 | [Add-ImageDirectories](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-imagedirectories) | addimgdir | Adds directories to the configured image directories for GenXdev.AI operations. |
@@ -264,7 +264,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-EmoticonsToText](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-emoticonstotext) | emojify | Enhances text by adding contextually appropriate emoticons using AI. |
 | [Add-GenXdevMCPServerToLMStudio](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-genxdevmcpservertolmstudio) | &nbsp; | Adds the GenXdev MCP server to LM Studio using a deeplink configuration. |
 | [Add-ImageDirectories](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-imagedirectories) | addimgdir | Adds directories to the configured image directories for GenXdev.AI operations. |
@@ -365,7 +365,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-EmoticonsToText](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-emoticonstotext) | emojify | Enhances text by adding contextually appropriate emoticons using AI. |
 | [Add-GenXdevMCPServerToLMStudio](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-genxdevmcpservertolmstudio) | &nbsp; | Adds the GenXdev MCP server to LM Studio using a deeplink configuration. |
 | [Add-ImageDirectories](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-imagedirectories) | addimgdir | Adds directories to the configured image directories for GenXdev.AI operations. |
@@ -466,7 +466,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-EmoticonsToText](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-emoticonstotext) | emojify | Enhances text by adding contextually appropriate emoticons using AI. |
 | [Add-GenXdevMCPServerToLMStudio](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-genxdevmcpservertolmstudio) | &nbsp; | Adds the GenXdev MCP server to LM Studio using a deeplink configuration. |
 | [Add-ImageDirectories](https://github.com/genXdev/GenXdev.AI/blob/main/README.md#add-imagedirectories) | addimgdir | Adds directories to the configured image directories for GenXdev.AI operations. |
@@ -567,7 +567,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-FeatureLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-featurelinetoreadme) | feature | Adds a feature line to the README file with a timestamp. |
 | [Add-IdeaLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-idealinetoreadme) | idea | Adds an idea item to the README.md file. |
 | [Add-IssueLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-issuelinetoreadme) | issue | Adds an issue item to the README.md file. |
@@ -629,7 +629,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-FeatureLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-featurelinetoreadme) | feature | Adds a feature line to the README file with a timestamp. |
 | [Add-IdeaLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-idealinetoreadme) | idea | Adds an idea item to the README.md file. |
 | [Add-IssueLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-issuelinetoreadme) | issue | Adds an issue item to the README.md file. |
@@ -691,7 +691,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-FeatureLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-featurelinetoreadme) | feature | Adds a feature line to the README file with a timestamp. |
 | [Add-IdeaLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-idealinetoreadme) | idea | Adds an idea item to the README.md file. |
 | [Add-IssueLineToREADME](https://github.com/genXdev/GenXdev.Coding/blob/main/README.md#add-issuelinetoreadme) | issue | Adds an issue item to the README.md file. |
@@ -753,7 +753,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-SpotifyNewPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifynewplaylist) | newplaylist | Creates a new Spotify playlist with customizable settings. |
 | [Add-SpotifyTracksToLiked](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoliked) | like | Adds tracks to the user's Spotify liked songs library. |
 | [Add-SpotifyTracksToPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoplaylist) | addtoplaylist | Adds tracks to a Spotify playlist. |
@@ -826,7 +826,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-SpotifyNewPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifynewplaylist) | newplaylist | Creates a new Spotify playlist with customizable settings. |
 | [Add-SpotifyTracksToLiked](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoliked) | like | Adds tracks to the user's Spotify liked songs library. |
 | [Add-SpotifyTracksToPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoplaylist) | addtoplaylist | Adds tracks to a Spotify playlist. |
@@ -899,7 +899,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-SpotifyNewPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifynewplaylist) | newplaylist | Creates a new Spotify playlist with customizable settings. |
 | [Add-SpotifyTracksToLiked](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoliked) | like | Adds tracks to the user's Spotify liked songs library. |
 | [Add-SpotifyTracksToPlaylist](https://github.com/genXdev/GenXdev.Console/blob/main/README.md#add-spotifytrackstoplaylist) | addtoplaylist | Adds tracks to a Spotify playlist. |
@@ -972,7 +972,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
@@ -1015,7 +1015,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
@@ -1058,7 +1058,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
@@ -1101,7 +1101,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
@@ -1144,7 +1144,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/blob/main/README.md#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
@@ -1187,7 +1187,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsurePester](https://github.com/genXdev/GenXdev.FileSystem/blob/main/README.md#ensurepester) | &nbsp; | Ensures Pester testing framework is available for use. |
 | [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/blob/main/README.md#expand-path) | ep | Expands any given file reference to a full pathname. |
 | [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/blob/main/README.md#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
@@ -1213,7 +1213,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [alignScript](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#alignscript) | &nbsp; | Returns a string (with altered indentation) of a provided scriptblock string |
 | [ConvertTo-HashTable](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#convertto-hashtable) | &nbsp; | Converts a PSCustomObject to a HashTable recursively. |
 | [ConvertTo-JsonEx](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#convertto-jsonex) | tojsonex | Converts an object to a JSON string with extended options. |
@@ -1245,7 +1245,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [_EnsureTypes](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#ensuretypes) | &nbsp; | &nbsp; |
 | [alignScript](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#alignscript) | &nbsp; | Returns a string (with altered indentation) of a provided scriptblock string |
 | [ConvertTo-HashTable](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md#convertto-hashtable) | &nbsp; | Converts a PSCustomObject to a HashTable recursively. |
@@ -1278,7 +1278,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureYtdlp](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#ensureytdlp) | &nbsp; | Ensures yt-dlp is installed and available in the default WSL image. |
 | [Invoke-YTDlpSaveVideo](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#invoke-ytdlpsavevideo) | Save-Video, savevideo | Downloads a video from a specified URL using yt-dlp and saves metadata. |
 
@@ -1293,7 +1293,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureYtdlp](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#ensureytdlp) | &nbsp; | Ensures yt-dlp is installed and available in the default WSL image. |
 | [Invoke-YTDlpSaveVideo](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#invoke-ytdlpsavevideo) | Save-Video, savevideo | Downloads a video from a specified URL using yt-dlp and saves metadata. |
 
@@ -1308,7 +1308,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [EnsureYtdlp](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#ensureytdlp) | &nbsp; | Ensures yt-dlp is installed and available in the default WSL image. |
 | [Invoke-YTDlpSaveVideo](https://github.com/genXdev/GenXdev.Media/blob/main/README.md#invoke-ytdlpsavevideo) | Save-Video, savevideo | Downloads a video from a specified URL using yt-dlp and saves metadata. |
 
@@ -1323,7 +1323,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Clear-YoutubeWatched](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#clear-youtubewatched) | &nbsp; | Clears the YouTube watch history from the browser's local storage. |
 | [ConvertTo-Uris](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#convertto-uris) | &nbsp; | Parses strings for any valid URI. |
 | [Copy-PDFsFromGoogleQuery](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#copy-pdfsfromgooglequery) | &nbsp; | Downloads PDF files found through Google search results. |
@@ -1378,7 +1378,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Clear-YoutubeWatched](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#clear-youtubewatched) | &nbsp; | Clears the YouTube watch history from the browser's local storage. |
 | [ConvertTo-Uris](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#convertto-uris) | &nbsp; | Parses strings for any valid URI. |
 | [Copy-PDFsFromGoogleQuery](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#copy-pdfsfromgooglequery) | &nbsp; | Downloads PDF files found through Google search results. |
@@ -1433,7 +1433,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Clear-YoutubeWatched](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#clear-youtubewatched) | &nbsp; | Clears the YouTube watch history from the browser's local storage. |
 | [ConvertTo-Uris](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#convertto-uris) | &nbsp; | Parses strings for any valid URI. |
 | [Copy-PDFsFromGoogleQuery](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#copy-pdfsfromgooglequery) | &nbsp; | Downloads PDF files found through Google search results. |
@@ -1488,7 +1488,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Clear-YoutubeWatched](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#clear-youtubewatched) | &nbsp; | Clears the YouTube watch history from the browser's local storage. |
 | [ConvertTo-Uris](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#convertto-uris) | &nbsp; | Parses strings for any valid URI. |
 | [Copy-PDFsFromGoogleQuery](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#copy-pdfsfromgooglequery) | &nbsp; | Downloads PDF files found through Google search results. |
@@ -1543,7 +1543,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Clear-YoutubeWatched](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#clear-youtubewatched) | &nbsp; | Clears the YouTube watch history from the browser's local storage. |
 | [ConvertTo-Uris](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#convertto-uris) | &nbsp; | Parses strings for any valid URI. |
 | [Copy-PDFsFromGoogleQuery](https://github.com/genXdev/GenXdev.Queries/blob/main/README.md#copy-pdfsfromgooglequery) | &nbsp; | Downloads PDF files found through Google search results. |
@@ -1598,7 +1598,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Approve-FirefoxDebugging](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#approve-firefoxdebugging) | &nbsp; | Configures Firefox's debugging and standalone app mode features. |
 | [Clear-WebbrowserTabSiteApplicationData](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#clear-webbrowsertabsiteapplicationdata) | clearsitedata | Clears all browser storage data for the current tab in Edge or Chrome. |
 | [Close-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#close-webbrowser) | wbc | Closes one or more webbrowser instances selectively. |
@@ -1639,7 +1639,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Approve-FirefoxDebugging](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#approve-firefoxdebugging) | &nbsp; | Configures Firefox's debugging and standalone app mode features. |
 | [Clear-WebbrowserTabSiteApplicationData](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#clear-webbrowsertabsiteapplicationdata) | clearsitedata | Clears all browser storage data for the current tab in Edge or Chrome. |
 | [Close-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/blob/main/README.md#close-webbrowser) | wbc | Closes one or more webbrowser instances selectively. |
@@ -1680,7 +1680,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-WireGuardPeer](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#add-wireguardpeer) | &nbsp; | Adds a new WireGuard VPN peer (client) configuration to the server. |
 | [CurrentUserHasElevatedRights](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#currentuserhaselevatedrights) | &nbsp; | Checks if the current user has elevated rights. |
 | [EnsureDockerDesktop](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#ensuredockerdesktop) | &nbsp; | Checks if the WinGet PowerShell module is installed. |
@@ -1730,7 +1730,7 @@ SOFTWARE.
 ### Cmdlet Index
 
 | Command | Aliases | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | [Add-WireGuardPeer](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#add-wireguardpeer) | &nbsp; | Adds a new WireGuard VPN peer (client) configuration to the server. |
 | [CurrentUserHasElevatedRights](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#currentuserhaselevatedrights) | &nbsp; | Checks if the current user has elevated rights. |
 | [EnsureDockerDesktop](https://github.com/genXdev/GenXdev.Windows/blob/main/README.md#ensuredockerdesktop) | &nbsp; | Checks if the WinGet PowerShell module is installed. |
