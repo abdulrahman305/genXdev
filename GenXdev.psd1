@@ -4,7 +4,7 @@
     RootModule           = 'GenXdev.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '1.248.2025'
+    ModuleVersion        = '1.250.2025'
 
     # Supported PSEditions
     CompatiblePSEditions = 'Core'
@@ -45,8 +45,8 @@
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules      = @(
 
-        @{ModuleName = 'GenXdev.Coding'; ModuleVersion = '1.248.2025'; },
-        @{ModuleName = 'GenXdev.Media'; ModuleVersion = '1.248.2025'; }
+        @{ModuleName = 'GenXdev.Coding'; ModuleVersion = '1.250.2025'; },
+        @{ModuleName = 'GenXdev.Media'; ModuleVersion = '1.250.2025'; }
     )
 
     # Assemblies that must be loaded prior to importing this module
