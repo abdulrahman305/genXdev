@@ -101,7 +101,7 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Get-MediaFileAudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -202,7 +202,7 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Get-MediaFileAudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -303,7 +303,7 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Get-MediaFileAudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -404,7 +404,7 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Get-MediaFileAudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -505,7 +505,7 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Get-MediaFileAudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
