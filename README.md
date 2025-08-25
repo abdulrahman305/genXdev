@@ -101,7 +101,6 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -142,7 +141,7 @@ SOFTWARE.
 | [Set-WindowsWallpaperEx](https://github.com/genXdev/GenXdev.AI/tree/main#set-windowswallpaperex) | nextwallpaper | Sets a random wallpaper from a specified directory or search criteria. |
 | [Show-FoundImagesInBrowser](https://github.com/genXdev/GenXdev.AI/tree/main#show-foundimagesinbrowser) | showfoundimages | Displays image search results in a masonry layout web gallery. |
 | [Show-GenXdevScriptErrorFixInIde](https://github.com/genXdev/GenXdev.AI/tree/main#show-genxdevscripterrorfixinide) | letsfixthis | Executes a script block and analyzes errors using AI to generate fixes in IDE. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | recordandtranscribe, transcribe | &nbsp; |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | Get-MediaFileAudioTranscription, transcribe, transcribefile | Transcribes an audio file, video file, or a recording device to text |
 | [Start-GenXdevMCPServer](https://github.com/genXdev/GenXdev.AI/tree/main#start-genxdevmcpserver) | &nbsp; | Starts the GenXdev MCP server that exposes PowerShell cmdlets as tools. |
 | [Start-LMStudioApplication](https://github.com/genXdev/GenXdev.AI/tree/main#start-lmstudioapplication) | &nbsp; | Starts the LM Studio application if it's not already running. |
 | [Test-DeepLinkImageFile](https://github.com/genXdev/GenXdev.AI/tree/main#test-deeplinkimagefile) | &nbsp; | Tests if the specified file path is a valid image file with a supported format. |
@@ -202,7 +201,6 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -243,7 +241,7 @@ SOFTWARE.
 | [Set-WindowsWallpaperEx](https://github.com/genXdev/GenXdev.AI/tree/main#set-windowswallpaperex) | nextwallpaper | Sets a random wallpaper from a specified directory or search criteria. |
 | [Show-FoundImagesInBrowser](https://github.com/genXdev/GenXdev.AI/tree/main#show-foundimagesinbrowser) | showfoundimages | Displays image search results in a masonry layout web gallery. |
 | [Show-GenXdevScriptErrorFixInIde](https://github.com/genXdev/GenXdev.AI/tree/main#show-genxdevscripterrorfixinide) | letsfixthis | Executes a script block and analyzes errors using AI to generate fixes in IDE. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | recordandtranscribe, transcribe | &nbsp; |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | Get-MediaFileAudioTranscription, transcribe, transcribefile | Transcribes an audio file, video file, or a recording device to text |
 | [Start-GenXdevMCPServer](https://github.com/genXdev/GenXdev.AI/tree/main#start-genxdevmcpserver) | &nbsp; | Starts the GenXdev MCP server that exposes PowerShell cmdlets as tools. |
 | [Start-LMStudioApplication](https://github.com/genXdev/GenXdev.AI/tree/main#start-lmstudioapplication) | &nbsp; | Starts the LM Studio application if it's not already running. |
 | [Test-DeepLinkImageFile](https://github.com/genXdev/GenXdev.AI/tree/main#test-deeplinkimagefile) | &nbsp; | Tests if the specified file path is a valid image file with a supported format. |
@@ -303,7 +301,6 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -344,7 +341,7 @@ SOFTWARE.
 | [Set-WindowsWallpaperEx](https://github.com/genXdev/GenXdev.AI/tree/main#set-windowswallpaperex) | nextwallpaper | Sets a random wallpaper from a specified directory or search criteria. |
 | [Show-FoundImagesInBrowser](https://github.com/genXdev/GenXdev.AI/tree/main#show-foundimagesinbrowser) | showfoundimages | Displays image search results in a masonry layout web gallery. |
 | [Show-GenXdevScriptErrorFixInIde](https://github.com/genXdev/GenXdev.AI/tree/main#show-genxdevscripterrorfixinide) | letsfixthis | Executes a script block and analyzes errors using AI to generate fixes in IDE. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | recordandtranscribe, transcribe | &nbsp; |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | Get-MediaFileAudioTranscription, transcribe, transcribefile | Transcribes an audio file, video file, or a recording device to text |
 | [Start-GenXdevMCPServer](https://github.com/genXdev/GenXdev.AI/tree/main#start-genxdevmcpserver) | &nbsp; | Starts the GenXdev MCP server that exposes PowerShell cmdlets as tools. |
 | [Start-LMStudioApplication](https://github.com/genXdev/GenXdev.AI/tree/main#start-lmstudioapplication) | &nbsp; | Starts the LM Studio application if it's not already running. |
 | [Test-DeepLinkImageFile](https://github.com/genXdev/GenXdev.AI/tree/main#test-deeplinkimagefile) | &nbsp; | Tests if the specified file path is a valid image file with a supported format. |
@@ -404,7 +401,6 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -445,7 +441,7 @@ SOFTWARE.
 | [Set-WindowsWallpaperEx](https://github.com/genXdev/GenXdev.AI/tree/main#set-windowswallpaperex) | nextwallpaper | Sets a random wallpaper from a specified directory or search criteria. |
 | [Show-FoundImagesInBrowser](https://github.com/genXdev/GenXdev.AI/tree/main#show-foundimagesinbrowser) | showfoundimages | Displays image search results in a masonry layout web gallery. |
 | [Show-GenXdevScriptErrorFixInIde](https://github.com/genXdev/GenXdev.AI/tree/main#show-genxdevscripterrorfixinide) | letsfixthis | Executes a script block and analyzes errors using AI to generate fixes in IDE. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | recordandtranscribe, transcribe | &nbsp; |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | Get-MediaFileAudioTranscription, transcribe, transcribefile | Transcribes an audio file, video file, or a recording device to text |
 | [Start-GenXdevMCPServer](https://github.com/genXdev/GenXdev.AI/tree/main#start-genxdevmcpserver) | &nbsp; | Starts the GenXdev MCP server that exposes PowerShell cmdlets as tools. |
 | [Start-LMStudioApplication](https://github.com/genXdev/GenXdev.AI/tree/main#start-lmstudioapplication) | &nbsp; | Starts the LM Studio application if it's not already running. |
 | [Test-DeepLinkImageFile](https://github.com/genXdev/GenXdev.AI/tree/main#test-deeplinkimagefile) | &nbsp; | Tests if the specified file path is a valid image file with a supported format. |
@@ -505,7 +501,6 @@ SOFTWARE.
 | [Get-LMStudioPaths](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiopaths) | &nbsp; | Retrieves file paths for LM Studio executables. |
 | [Get-LMStudioTextEmbedding](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiotextembedding) | embed-text, Get-TextEmbedding | Gets text embeddings from LM Studio model. |
 | [Get-LMStudioWindow](https://github.com/genXdev/GenXdev.AI/tree/main#get-lmstudiowindow) | lmstudiowindow, setlmstudiowindow | Gets a window helper for the LM Studio application. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#get-mediafileaudiotranscription) | transcribefile | Transcribes an audio or video file to text. |
 | [Get-NumberOfCpuCores](https://github.com/genXdev/GenXdev.AI/tree/main#get-numberofcpucores) | &nbsp; | Calculates and returns the total number of logical CPU cores in the system. |
 | [Get-RegisteredFaces](https://github.com/genXdev/GenXdev.AI/tree/main#get-registeredfaces) | &nbsp; | Retrieves a list of all registered face identifiers from DeepStack. |
 | [Get-ScriptExecutionErrorFixPrompt](https://github.com/genXdev/GenXdev.AI/tree/main#get-scriptexecutionerrorfixprompt) | getfixprompt | Captures error messages from various streams and uses LLM to suggest fixes. |
@@ -546,7 +541,7 @@ SOFTWARE.
 | [Set-WindowsWallpaperEx](https://github.com/genXdev/GenXdev.AI/tree/main#set-windowswallpaperex) | nextwallpaper | Sets a random wallpaper from a specified directory or search criteria. |
 | [Show-FoundImagesInBrowser](https://github.com/genXdev/GenXdev.AI/tree/main#show-foundimagesinbrowser) | showfoundimages | Displays image search results in a masonry layout web gallery. |
 | [Show-GenXdevScriptErrorFixInIde](https://github.com/genXdev/GenXdev.AI/tree/main#show-genxdevscripterrorfixinide) | letsfixthis | Executes a script block and analyzes errors using AI to generate fixes in IDE. |
-| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | recordandtranscribe, transcribe | &nbsp; |
+| [Start-AudioTranscription](https://github.com/genXdev/GenXdev.AI/tree/main#start-audiotranscription) | Get-MediaFileAudioTranscription, transcribe, transcribefile | Transcribes an audio file, video file, or a recording device to text |
 | [Start-GenXdevMCPServer](https://github.com/genXdev/GenXdev.AI/tree/main#start-genxdevmcpserver) | &nbsp; | Starts the GenXdev MCP server that exposes PowerShell cmdlets as tools. |
 | [Start-LMStudioApplication](https://github.com/genXdev/GenXdev.AI/tree/main#start-lmstudioapplication) | &nbsp; | Starts the LM Studio application if it's not already running. |
 | [Test-DeepLinkImageFile](https://github.com/genXdev/GenXdev.AI/tree/main#test-deeplinkimagefile) | &nbsp; | Tests if the specified file path is a valid image file with a supported format. |
@@ -1354,7 +1349,7 @@ SOFTWARE.
 | [Open-SearchEngine](https://github.com/genXdev/GenXdev.Queries/tree/main#open-searchengine) | q | Opens a search query in the specified search engine using a web browser. |
 | [Open-SimularWebSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-simularwebsiteinfo) | simularsite | Opens SimilarWeb website information for specified URLs in a web browser. |
 | [Open-StackOverflowQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-stackoverflowquery) | qso | Opens Stack Overflow search queries in a web browser. |
-| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | Opens an interactive timeline showing current time, date, century, and millennium. |
+| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | &nbsp; |
 | [Open-ViralSimulation](https://github.com/genXdev/GenXdev.Queries/tree/main#open-viralsimulation) | viral | &nbsp; |
 | [Open-WaybackMachineSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-waybackmachinesiteinfo) | wayback | Opens WaybackMachine site information in a web browser. |
 | [Open-WebsiteAndPerformQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-websiteandperformquery) | owaq | Opens a webpage in a webbrowser and performs one or more queries. |
@@ -1409,7 +1404,7 @@ SOFTWARE.
 | [Open-SearchEngine](https://github.com/genXdev/GenXdev.Queries/tree/main#open-searchengine) | q | Opens a search query in the specified search engine using a web browser. |
 | [Open-SimularWebSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-simularwebsiteinfo) | simularsite | Opens SimilarWeb website information for specified URLs in a web browser. |
 | [Open-StackOverflowQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-stackoverflowquery) | qso | Opens Stack Overflow search queries in a web browser. |
-| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | Opens an interactive timeline showing current time, date, century, and millennium. |
+| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | &nbsp; |
 | [Open-ViralSimulation](https://github.com/genXdev/GenXdev.Queries/tree/main#open-viralsimulation) | viral | &nbsp; |
 | [Open-WaybackMachineSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-waybackmachinesiteinfo) | wayback | Opens WaybackMachine site information in a web browser. |
 | [Open-WebsiteAndPerformQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-websiteandperformquery) | owaq | Opens a webpage in a webbrowser and performs one or more queries. |
@@ -1464,7 +1459,7 @@ SOFTWARE.
 | [Open-SearchEngine](https://github.com/genXdev/GenXdev.Queries/tree/main#open-searchengine) | q | Opens a search query in the specified search engine using a web browser. |
 | [Open-SimularWebSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-simularwebsiteinfo) | simularsite | Opens SimilarWeb website information for specified URLs in a web browser. |
 | [Open-StackOverflowQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-stackoverflowquery) | qso | Opens Stack Overflow search queries in a web browser. |
-| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | Opens an interactive timeline showing current time, date, century, and millennium. |
+| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | &nbsp; |
 | [Open-ViralSimulation](https://github.com/genXdev/GenXdev.Queries/tree/main#open-viralsimulation) | viral | &nbsp; |
 | [Open-WaybackMachineSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-waybackmachinesiteinfo) | wayback | Opens WaybackMachine site information in a web browser. |
 | [Open-WebsiteAndPerformQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-websiteandperformquery) | owaq | Opens a webpage in a webbrowser and performs one or more queries. |
@@ -1519,7 +1514,7 @@ SOFTWARE.
 | [Open-SearchEngine](https://github.com/genXdev/GenXdev.Queries/tree/main#open-searchengine) | q | Opens a search query in the specified search engine using a web browser. |
 | [Open-SimularWebSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-simularwebsiteinfo) | simularsite | Opens SimilarWeb website information for specified URLs in a web browser. |
 | [Open-StackOverflowQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-stackoverflowquery) | qso | Opens Stack Overflow search queries in a web browser. |
-| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | Opens an interactive timeline showing current time, date, century, and millennium. |
+| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | &nbsp; |
 | [Open-ViralSimulation](https://github.com/genXdev/GenXdev.Queries/tree/main#open-viralsimulation) | viral | &nbsp; |
 | [Open-WaybackMachineSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-waybackmachinesiteinfo) | wayback | Opens WaybackMachine site information in a web browser. |
 | [Open-WebsiteAndPerformQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-websiteandperformquery) | owaq | Opens a webpage in a webbrowser and performs one or more queries. |
@@ -1574,7 +1569,7 @@ SOFTWARE.
 | [Open-SearchEngine](https://github.com/genXdev/GenXdev.Queries/tree/main#open-searchengine) | q | Opens a search query in the specified search engine using a web browser. |
 | [Open-SimularWebSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-simularwebsiteinfo) | simularsite | Opens SimilarWeb website information for specified URLs in a web browser. |
 | [Open-StackOverflowQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-stackoverflowquery) | qso | Opens Stack Overflow search queries in a web browser. |
-| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | Opens an interactive timeline showing current time, date, century, and millennium. |
+| [Open-Timeline](https://github.com/genXdev/GenXdev.Queries/tree/main#open-timeline) | timeline | &nbsp; |
 | [Open-ViralSimulation](https://github.com/genXdev/GenXdev.Queries/tree/main#open-viralsimulation) | viral | &nbsp; |
 | [Open-WaybackMachineSiteInfo](https://github.com/genXdev/GenXdev.Queries/tree/main#open-waybackmachinesiteinfo) | wayback | Opens WaybackMachine site information in a web browser. |
 | [Open-WebsiteAndPerformQuery](https://github.com/genXdev/GenXdev.Queries/tree/main#open-websiteandperformquery) | owaq | Opens a webpage in a webbrowser and performs one or more queries. |
