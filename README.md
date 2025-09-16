@@ -1409,6 +1409,21 @@ SOFTWARE.
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
+| [EnsurePester](https://github.com/genXdev/GenXdev.FileSystem/tree/main#ensurepester) | &nbsp; | Ensures Pester testing framework is available for use. |
+| [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/tree/main#expand-path) | ep | Expands any given file reference to a full pathname. |
+| [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
+| [Find-Item](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-item) | l | Fast multi-threaded file and directory search with optional textcontent pattern matching |
+| [Invoke-Fasti](https://github.com/genXdev/GenXdev.FileSystem/tree/main#invoke-fasti) | fasti | Extracts archive files in the current directory to their own folders and deletes the afterwards. |
+| [Move-ItemWithTracking](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-itemwithtracking) | &nbsp; | Moves files and directories while preserving filesystem links and references. |
+| [Move-ToRecycleBin](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-torecyclebin) | recycle | Moves files and directories to the Windows Recycle Bin safely. |
+| [Remove-AllItems](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-allitems) | sdel | Recursively removes all content from a directory with advanced error handling. |
+| [Remove-ItemWithFallback](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-itemwithfallback) | rmf | Removes files or directories with multiple fallback mechanisms for reliable deletion. |
+| [Remove-OnReboot](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-onreboot) | &nbsp; | Marks files or directories for deletion during the next system boot. |
+| [Rename-InProject](https://github.com/genXdev/GenXdev.FileSystem/tree/main#rename-inproject) | rip | Performs text replacement throughout a project directory. |
+| [ResolveInputObjectFileNames](https://github.com/genXdev/GenXdev.FileSystem/tree/main#resolveinputobjectfilenames) | &nbsp; | &nbsp; |
+| [Start-RoboCopy](https://github.com/genXdev/GenXdev.FileSystem/tree/main#start-robocopy) | rc, xc | Provides a PowerShell wrapper for Microsoft's Robust Copy (RoboCopy) utility. |
+| [Write-FileOutput](https://github.com/genXdev/GenXdev.FileSystem/tree/main#write-fileoutput) | &nbsp; | &nbsp; |
+| [WriteFileOutput](https://github.com/genXdev/GenXdev.FileSystem/tree/main#writefileoutput) | &nbsp; | &nbsp; |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.FileSystem/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
