@@ -1413,7 +1413,7 @@ SOFTWARE.
 | [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/tree/main#expand-path) | ep | Expands any given file reference to a full pathname. |
 | [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
 | [Find-Item](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-item) | l | Fast multi-threaded file and directory search with optional textcontent pattern matching |
-| [Invoke-Fasti](https://github.com/genXdev/GenXdev.FileSystem/tree/main#invoke-fasti) | fasti | Extracts archive files in the current directory to their own folders and deletes the afterwards. |
+| [Invoke-Fasti](https://github.com/genXdev/GenXdev.FileSystem/tree/main#invoke-fasti) | fasti | &nbsp; |
 | [Move-ItemWithTracking](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-itemwithtracking) | &nbsp; | Moves files and directories while preserving filesystem links and references. |
 | [Move-ToRecycleBin](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-torecyclebin) | recycle | Moves files and directories to the Windows Recycle Bin safely. |
 | [Remove-AllItems](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-allitems) | sdel | Recursively removes all content from a directory with advanced error handling. |
