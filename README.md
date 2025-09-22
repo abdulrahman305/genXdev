@@ -59,7 +59,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -180,7 +180,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -301,7 +301,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -422,7 +422,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -543,7 +543,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -664,7 +664,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for local AI related operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -785,7 +785,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps being more productive with coding tasks.**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -847,7 +847,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps being more productive with coding tasks.**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -909,7 +909,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps being more productive with coding tasks.**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -971,7 +971,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1044,7 +1044,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1117,7 +1117,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1190,7 +1190,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1233,7 +1233,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1276,7 +1276,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1319,7 +1319,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1362,7 +1362,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for enhancing the commandline experience**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1405,7 +1405,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for basic and advanced file management tasks**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1432,7 +1432,7 @@ SOFTWARE.
 
 **A Windows PowerShell module with helpers mostly used by other GenXdev modules**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1465,7 +1465,7 @@ SOFTWARE.
 
 **A Windows PowerShell module with helpers mostly used by other GenXdev modules**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1499,7 +1499,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps with converting media files like pictures and video files**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1514,7 +1514,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps with converting media files like pictures and video files**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1529,7 +1529,7 @@ SOFTWARE.
 
 **A Windows PowerShell module that helps with converting media files like pictures and video files**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1544,7 +1544,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for finding resources and information on the internet**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1599,7 +1599,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for finding resources and information on the internet**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1654,7 +1654,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for finding resources and information on the internet**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1709,7 +1709,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for finding resources and information on the internet**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1764,7 +1764,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for finding resources and information on the internet**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1819,7 +1819,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for webbrowser operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1861,7 +1861,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for webbrowser.playwright operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1903,7 +1903,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for windows operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
@@ -1953,7 +1953,7 @@ SOFTWARE.
 
 **A Windows PowerShell module for windows.wireguard operations**
 
-### Cmdlet Index
+# Cmdlet Index
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
