@@ -805,7 +805,7 @@ SOFTWARE.
 | [Clear-GenXdevModules](https://github.com/genXdev/GenXdev.Coding/tree/main#clear-genxdevmodules) | cleangenxdev | Cleans build artifacts from GenXdev PowerShell modules. |
 | [Complete-GenXDevREADME](https://github.com/genXdev/GenXdev.Coding/tree/main#complete-genxdevreadme) | &nbsp; | Completes the README file for specified GenXDev modules by adding documentation. |
 | [EnsureCopilotKeyboardShortCut](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurecopilotkeyboardshortcut) | &nbsp; | Configures the GitHub Copilot Chat keyboard shortcuts in Visual Studio Code. |
-| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | Ensures default GenXdev refactor definitions exist with proper configuration. |
+| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | &nbsp; |
 | [EnsureVSCodeInstallation](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurevscodeinstallation) | &nbsp; | Installs and configures Visual Studio Code with recommended extensions. |
 | [Features](https://github.com/genXdev/GenXdev.Coding/tree/main#features) | &nbsp; | Displays features from a README.md file. |
 | [Get-GenXdevCmdletUsageAnalysis](https://github.com/genXdev/GenXdev.Coding/tree/main#get-genxdevcmdletusageanalysis) | &nbsp; | Analyzes GenXdev cmdlet usage patterns to identify most frequently called functions. |
@@ -867,7 +867,7 @@ SOFTWARE.
 | [Clear-GenXdevModules](https://github.com/genXdev/GenXdev.Coding/tree/main#clear-genxdevmodules) | cleangenxdev | Cleans build artifacts from GenXdev PowerShell modules. |
 | [Complete-GenXDevREADME](https://github.com/genXdev/GenXdev.Coding/tree/main#complete-genxdevreadme) | &nbsp; | Completes the README file for specified GenXDev modules by adding documentation. |
 | [EnsureCopilotKeyboardShortCut](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurecopilotkeyboardshortcut) | &nbsp; | Configures the GitHub Copilot Chat keyboard shortcuts in Visual Studio Code. |
-| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | Ensures default GenXdev refactor definitions exist with proper configuration. |
+| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | &nbsp; |
 | [EnsureVSCodeInstallation](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurevscodeinstallation) | &nbsp; | Installs and configures Visual Studio Code with recommended extensions. |
 | [Features](https://github.com/genXdev/GenXdev.Coding/tree/main#features) | &nbsp; | Displays features from a README.md file. |
 | [Get-GenXdevCmdletUsageAnalysis](https://github.com/genXdev/GenXdev.Coding/tree/main#get-genxdevcmdletusageanalysis) | &nbsp; | Analyzes GenXdev cmdlet usage patterns to identify most frequently called functions. |
@@ -929,7 +929,7 @@ SOFTWARE.
 | [Clear-GenXdevModules](https://github.com/genXdev/GenXdev.Coding/tree/main#clear-genxdevmodules) | cleangenxdev | Cleans build artifacts from GenXdev PowerShell modules. |
 | [Complete-GenXDevREADME](https://github.com/genXdev/GenXdev.Coding/tree/main#complete-genxdevreadme) | &nbsp; | Completes the README file for specified GenXDev modules by adding documentation. |
 | [EnsureCopilotKeyboardShortCut](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurecopilotkeyboardshortcut) | &nbsp; | Configures the GitHub Copilot Chat keyboard shortcuts in Visual Studio Code. |
-| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | Ensures default GenXdev refactor definitions exist with proper configuration. |
+| [EnsureDefaultGenXdevRefactors](https://github.com/genXdev/GenXdev.Coding/tree/main#ensuredefaultgenxdevrefactors) | &nbsp; | &nbsp; |
 | [EnsureVSCodeInstallation](https://github.com/genXdev/GenXdev.Coding/tree/main#ensurevscodeinstallation) | &nbsp; | Installs and configures Visual Studio Code with recommended extensions. |
 | [Features](https://github.com/genXdev/GenXdev.Coding/tree/main#features) | &nbsp; | Displays features from a README.md file. |
 | [Get-GenXdevCmdletUsageAnalysis](https://github.com/genXdev/GenXdev.Coding/tree/main#get-genxdevcmdletusageanalysis) | &nbsp; | Analyzes GenXdev cmdlet usage patterns to identify most frequently called functions. |
@@ -1195,6 +1195,7 @@ SOFTWARE.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
+| [EnsureSSMSInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuressmsinstalled) | &nbsp; | Ensures SSMS is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
@@ -1204,18 +1205,30 @@ SOFTWARE.
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
 | [Get-SQLiteTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetables) | &nbsp; | Retrieves a list of table names from a SQLite database. |
 | [Get-SQLiteTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetableschema) | &nbsp; | Retrieves the schema information for a specified SQLite table. |
-| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | getsqltx, newsqltx | Creates and returns a SQLite transaction object for batch operations. |
+| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | &nbsp; | Creates and returns a SQLite transaction object for batch operations. |
 | [Get-SQLiteViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewcolumndata) | &nbsp; | Retrieves column data from a SQLite view with optional record limiting. |
 | [Get-SQLiteViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewdata) | &nbsp; | Retrieves data from a SQLite database view with optional record limiting. |
 | [Get-SQLiteViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviews) | &nbsp; | Retrieves a list of views from a SQLite database. |
 | [Get-SQLiteViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQLite view. |
+| [Get-SQLServerSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverschema) | &nbsp; | Retrieves the complete schema information from a SQL Server database. |
+| [Get-SQLServerTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQL database table. |
+| [Get-SQLServerTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertabledata) | &nbsp; | Retrieves data from a SQL database table with optional record limiting. |
+| [Get-SQLServerTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertables) | &nbsp; | Retrieves a list of table names from a SQL Server database. |
+| [Get-SQLServerTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertableschema) | &nbsp; | Retrieves the schema information for a specified SQL Server table. |
+| [Get-SQLServerTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertransaction) | getsqltx, newsqltx | Creates and returns a SQL Server transaction object for batch operations. |
+| [Get-SQLServerViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewcolumndata) | &nbsp; | Retrieves column data from a SQL view with optional record limiting. |
+| [Get-SQLServerViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewdata) | &nbsp; | Retrieves data from a SQL database view with optional record limiting. |
+| [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
+| [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
 | [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
 | [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
-| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes SQL queries against a SQL Server database with transaction support. |
-| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | nsqldb | Creates a new SQLite database file. |
+| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
+| [Invoke-SSMS](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-ssms) | sqlservermanagementstudio, ssms | Executes SQL Server database queries with support for parameters and transactions. |
+| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
+| [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
 | [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
 | [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
@@ -1238,6 +1251,7 @@ SOFTWARE.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
+| [EnsureSSMSInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuressmsinstalled) | &nbsp; | Ensures SSMS is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
@@ -1247,18 +1261,30 @@ SOFTWARE.
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
 | [Get-SQLiteTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetables) | &nbsp; | Retrieves a list of table names from a SQLite database. |
 | [Get-SQLiteTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetableschema) | &nbsp; | Retrieves the schema information for a specified SQLite table. |
-| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | getsqltx, newsqltx | Creates and returns a SQLite transaction object for batch operations. |
+| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | &nbsp; | Creates and returns a SQLite transaction object for batch operations. |
 | [Get-SQLiteViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewcolumndata) | &nbsp; | Retrieves column data from a SQLite view with optional record limiting. |
 | [Get-SQLiteViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewdata) | &nbsp; | Retrieves data from a SQLite database view with optional record limiting. |
 | [Get-SQLiteViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviews) | &nbsp; | Retrieves a list of views from a SQLite database. |
 | [Get-SQLiteViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQLite view. |
+| [Get-SQLServerSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverschema) | &nbsp; | Retrieves the complete schema information from a SQL Server database. |
+| [Get-SQLServerTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQL database table. |
+| [Get-SQLServerTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertabledata) | &nbsp; | Retrieves data from a SQL database table with optional record limiting. |
+| [Get-SQLServerTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertables) | &nbsp; | Retrieves a list of table names from a SQL Server database. |
+| [Get-SQLServerTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertableschema) | &nbsp; | Retrieves the schema information for a specified SQL Server table. |
+| [Get-SQLServerTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertransaction) | getsqltx, newsqltx | Creates and returns a SQL Server transaction object for batch operations. |
+| [Get-SQLServerViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewcolumndata) | &nbsp; | Retrieves column data from a SQL view with optional record limiting. |
+| [Get-SQLServerViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewdata) | &nbsp; | Retrieves data from a SQL database view with optional record limiting. |
+| [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
+| [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
 | [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
 | [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
-| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes SQL queries against a SQL Server database with transaction support. |
-| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | nsqldb | Creates a new SQLite database file. |
+| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
+| [Invoke-SSMS](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-ssms) | sqlservermanagementstudio, ssms | Executes SQL Server database queries with support for parameters and transactions. |
+| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
+| [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
 | [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
 | [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
@@ -1281,6 +1307,7 @@ SOFTWARE.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
+| [EnsureSSMSInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuressmsinstalled) | &nbsp; | Ensures SSMS is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
@@ -1290,18 +1317,30 @@ SOFTWARE.
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
 | [Get-SQLiteTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetables) | &nbsp; | Retrieves a list of table names from a SQLite database. |
 | [Get-SQLiteTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetableschema) | &nbsp; | Retrieves the schema information for a specified SQLite table. |
-| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | getsqltx, newsqltx | Creates and returns a SQLite transaction object for batch operations. |
+| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | &nbsp; | Creates and returns a SQLite transaction object for batch operations. |
 | [Get-SQLiteViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewcolumndata) | &nbsp; | Retrieves column data from a SQLite view with optional record limiting. |
 | [Get-SQLiteViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewdata) | &nbsp; | Retrieves data from a SQLite database view with optional record limiting. |
 | [Get-SQLiteViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviews) | &nbsp; | Retrieves a list of views from a SQLite database. |
 | [Get-SQLiteViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQLite view. |
+| [Get-SQLServerSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverschema) | &nbsp; | Retrieves the complete schema information from a SQL Server database. |
+| [Get-SQLServerTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQL database table. |
+| [Get-SQLServerTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertabledata) | &nbsp; | Retrieves data from a SQL database table with optional record limiting. |
+| [Get-SQLServerTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertables) | &nbsp; | Retrieves a list of table names from a SQL Server database. |
+| [Get-SQLServerTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertableschema) | &nbsp; | Retrieves the schema information for a specified SQL Server table. |
+| [Get-SQLServerTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertransaction) | getsqltx, newsqltx | Creates and returns a SQL Server transaction object for batch operations. |
+| [Get-SQLServerViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewcolumndata) | &nbsp; | Retrieves column data from a SQL view with optional record limiting. |
+| [Get-SQLServerViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewdata) | &nbsp; | Retrieves data from a SQL database view with optional record limiting. |
+| [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
+| [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
 | [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
 | [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
-| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes SQL queries against a SQL Server database with transaction support. |
-| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | nsqldb | Creates a new SQLite database file. |
+| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
+| [Invoke-SSMS](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-ssms) | sqlservermanagementstudio, ssms | Executes SQL Server database queries with support for parameters and transactions. |
+| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
+| [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
 | [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
 | [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
@@ -1324,6 +1363,7 @@ SOFTWARE.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
+| [EnsureSSMSInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuressmsinstalled) | &nbsp; | Ensures SSMS is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
@@ -1333,18 +1373,30 @@ SOFTWARE.
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
 | [Get-SQLiteTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetables) | &nbsp; | Retrieves a list of table names from a SQLite database. |
 | [Get-SQLiteTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetableschema) | &nbsp; | Retrieves the schema information for a specified SQLite table. |
-| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | getsqltx, newsqltx | Creates and returns a SQLite transaction object for batch operations. |
+| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | &nbsp; | Creates and returns a SQLite transaction object for batch operations. |
 | [Get-SQLiteViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewcolumndata) | &nbsp; | Retrieves column data from a SQLite view with optional record limiting. |
 | [Get-SQLiteViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewdata) | &nbsp; | Retrieves data from a SQLite database view with optional record limiting. |
 | [Get-SQLiteViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviews) | &nbsp; | Retrieves a list of views from a SQLite database. |
 | [Get-SQLiteViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQLite view. |
+| [Get-SQLServerSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverschema) | &nbsp; | Retrieves the complete schema information from a SQL Server database. |
+| [Get-SQLServerTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQL database table. |
+| [Get-SQLServerTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertabledata) | &nbsp; | Retrieves data from a SQL database table with optional record limiting. |
+| [Get-SQLServerTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertables) | &nbsp; | Retrieves a list of table names from a SQL Server database. |
+| [Get-SQLServerTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertableschema) | &nbsp; | Retrieves the schema information for a specified SQL Server table. |
+| [Get-SQLServerTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertransaction) | getsqltx, newsqltx | Creates and returns a SQL Server transaction object for batch operations. |
+| [Get-SQLServerViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewcolumndata) | &nbsp; | Retrieves column data from a SQL view with optional record limiting. |
+| [Get-SQLServerViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewdata) | &nbsp; | Retrieves data from a SQL database view with optional record limiting. |
+| [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
+| [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
 | [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
 | [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
-| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes SQL queries against a SQL Server database with transaction support. |
-| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | nsqldb | Creates a new SQLite database file. |
+| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
+| [Invoke-SSMS](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-ssms) | sqlservermanagementstudio, ssms | Executes SQL Server database queries with support for parameters and transactions. |
+| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
+| [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
 | [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
 | [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
@@ -1367,6 +1419,7 @@ SOFTWARE.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [EnsureSQLiteStudioInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuresqlitestudioinstalled) | &nbsp; | Ensures SQLiteStudio is installed and accessible from the command line. |
+| [EnsureSSMSInstalled](https://github.com/genXdev/GenXdev.Data/tree/main#ensuressmsinstalled) | &nbsp; | Ensures SSMS is installed and accessible from the command line. |
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
@@ -1376,18 +1429,30 @@ SOFTWARE.
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
 | [Get-SQLiteTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetables) | &nbsp; | Retrieves a list of table names from a SQLite database. |
 | [Get-SQLiteTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetableschema) | &nbsp; | Retrieves the schema information for a specified SQLite table. |
-| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | getsqltx, newsqltx | Creates and returns a SQLite transaction object for batch operations. |
+| [Get-SQLiteTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetransaction) | &nbsp; | Creates and returns a SQLite transaction object for batch operations. |
 | [Get-SQLiteViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewcolumndata) | &nbsp; | Retrieves column data from a SQLite view with optional record limiting. |
 | [Get-SQLiteViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewdata) | &nbsp; | Retrieves data from a SQLite database view with optional record limiting. |
 | [Get-SQLiteViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviews) | &nbsp; | Retrieves a list of views from a SQLite database. |
 | [Get-SQLiteViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQLite view. |
+| [Get-SQLServerSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverschema) | &nbsp; | Retrieves the complete schema information from a SQL Server database. |
+| [Get-SQLServerTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQL database table. |
+| [Get-SQLServerTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertabledata) | &nbsp; | Retrieves data from a SQL database table with optional record limiting. |
+| [Get-SQLServerTables](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertables) | &nbsp; | Retrieves a list of table names from a SQL Server database. |
+| [Get-SQLServerTableSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertableschema) | &nbsp; | Retrieves the schema information for a specified SQL Server table. |
+| [Get-SQLServerTransaction](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlservertransaction) | getsqltx, newsqltx | Creates and returns a SQL Server transaction object for batch operations. |
+| [Get-SQLServerViewColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewcolumndata) | &nbsp; | Retrieves column data from a SQL view with optional record limiting. |
+| [Get-SQLServerViewData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewdata) | &nbsp; | Retrieves data from a SQL database view with optional record limiting. |
+| [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
+| [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
 | [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
 | [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
-| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes SQL queries against a SQL Server database with transaction support. |
-| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | nsqldb | Creates a new SQLite database file. |
+| [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
+| [Invoke-SSMS](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-ssms) | sqlservermanagementstudio, ssms | Executes SQL Server database queries with support for parameters and transactions. |
+| [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
+| [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
 | [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
 | [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
@@ -1409,6 +1474,7 @@ SOFTWARE.
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
+| [Confirm-InstallationConsent](https://github.com/genXdev/GenXdev.FileSystem/tree/main#confirm-installationconsent) | &nbsp; | Confirms user consent for installing third-party software, using preferences for persistent choices. |
 | [EnsurePester](https://github.com/genXdev/GenXdev.FileSystem/tree/main#ensurepester) | &nbsp; | Ensures Pester testing framework is available for use. |
 | [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/tree/main#expand-path) | ep | Expands any given file reference to a full pathname. |
 | [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
@@ -1840,6 +1906,7 @@ SOFTWARE.
 | [Get-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#get-webbrowser) | &nbsp; | Returns a collection of installed modern web browsers. |
 | [Get-WebbrowserTabDomNodes](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#get-webbrowsertabdomnodes) | wl | Queries and manipulates DOM nodes in the active browser tab using CSS selectors. |
 | [Import-BrowserBookmarks](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#import-browserbookmarks) | &nbsp; | Imports bookmarks from a file or collection into a web browser. |
+| [Import-GenXdevBookmarkletMenu](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#import-genxdevbookmarkletmenu) | &nbsp; | Imports GenXdev JavaScript bookmarklets into browser bookmark collections. |
 | [Invoke-WebbrowserEvaluation](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#invoke-webbrowserevaluation) | et, Eval | Executes JavaScript code in a selected web browser tab. |
 | [Open-BrowserBookmarks](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#open-browserbookmarks) | sites | Opens browser bookmarks that match specified search criteria. |
 | [Open-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#open-webbrowser) | wb | Opens URLs in one or more browser windows with optional positioning and styling. |
@@ -1882,6 +1949,7 @@ SOFTWARE.
 | [Get-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#get-webbrowser) | &nbsp; | Returns a collection of installed modern web browsers. |
 | [Get-WebbrowserTabDomNodes](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#get-webbrowsertabdomnodes) | wl | Queries and manipulates DOM nodes in the active browser tab using CSS selectors. |
 | [Import-BrowserBookmarks](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#import-browserbookmarks) | &nbsp; | Imports bookmarks from a file or collection into a web browser. |
+| [Import-GenXdevBookmarkletMenu](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#import-genxdevbookmarkletmenu) | &nbsp; | Imports GenXdev JavaScript bookmarklets into browser bookmark collections. |
 | [Invoke-WebbrowserEvaluation](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#invoke-webbrowserevaluation) | et, Eval | Executes JavaScript code in a selected web browser tab. |
 | [Open-BrowserBookmarks](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#open-browserbookmarks) | sites | Opens browser bookmarks that match specified search criteria. |
 | [Open-Webbrowser](https://github.com/genXdev/GenXdev.Webbrowser/tree/main#open-webbrowser) | wb | Opens URLs in one or more browser windows with optional positioning and styling. |
