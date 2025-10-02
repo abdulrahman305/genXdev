@@ -1199,7 +1199,7 @@ SOFTWARE.
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
-| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | Retrieves a list of all available key-value store names from the database. |
+| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | &nbsp; |
 | [Get-SQLiteSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteschema) | &nbsp; | Retrieves the complete schema information from a SQLite database. |
 | [Get-SQLiteTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQLite database table. |
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
@@ -1221,8 +1221,9 @@ SOFTWARE.
 | [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
 | [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
-| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
-| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
+| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a JSON-based key-value store. |
+| [GetStoreFilePath](https://github.com/genXdev/GenXdev.Data/tree/main#getstorefilepath) | &nbsp; | &nbsp; |
+| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes KeyValueStore directory structure for local and OneDrive storage. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
 | [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
@@ -1230,13 +1231,13 @@ SOFTWARE.
 | [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
 | [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
-| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
-| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
+| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | &nbsp; |
+| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | &nbsp; |
 | [Set-GenXdevDefaultPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevdefaultpreference) | setPreferenceDefault | Sets a default preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreference) | setPreference | Sets a preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreferencesdatabasepath) | &nbsp; | Sets the database path for preferences used in GenXdev.Data operations. |
-| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a SQLite database store. |
-| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store databases. |
+| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a JSON file-based store. |
+| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store JSON files. |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Data/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1255,7 +1256,7 @@ SOFTWARE.
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
-| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | Retrieves a list of all available key-value store names from the database. |
+| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | &nbsp; |
 | [Get-SQLiteSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteschema) | &nbsp; | Retrieves the complete schema information from a SQLite database. |
 | [Get-SQLiteTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQLite database table. |
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
@@ -1277,8 +1278,9 @@ SOFTWARE.
 | [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
 | [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
-| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
-| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
+| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a JSON-based key-value store. |
+| [GetStoreFilePath](https://github.com/genXdev/GenXdev.Data/tree/main#getstorefilepath) | &nbsp; | &nbsp; |
+| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes KeyValueStore directory structure for local and OneDrive storage. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
 | [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
@@ -1286,13 +1288,13 @@ SOFTWARE.
 | [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
 | [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
-| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
-| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
+| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | &nbsp; |
+| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | &nbsp; |
 | [Set-GenXdevDefaultPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevdefaultpreference) | setPreferenceDefault | Sets a default preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreference) | setPreference | Sets a preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreferencesdatabasepath) | &nbsp; | Sets the database path for preferences used in GenXdev.Data operations. |
-| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a SQLite database store. |
-| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store databases. |
+| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a JSON file-based store. |
+| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store JSON files. |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Data/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1311,7 +1313,7 @@ SOFTWARE.
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
-| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | Retrieves a list of all available key-value store names from the database. |
+| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | &nbsp; |
 | [Get-SQLiteSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteschema) | &nbsp; | Retrieves the complete schema information from a SQLite database. |
 | [Get-SQLiteTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQLite database table. |
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
@@ -1333,8 +1335,9 @@ SOFTWARE.
 | [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
 | [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
-| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
-| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
+| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a JSON-based key-value store. |
+| [GetStoreFilePath](https://github.com/genXdev/GenXdev.Data/tree/main#getstorefilepath) | &nbsp; | &nbsp; |
+| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes KeyValueStore directory structure for local and OneDrive storage. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
 | [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
@@ -1342,13 +1345,13 @@ SOFTWARE.
 | [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
 | [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
-| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
-| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
+| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | &nbsp; |
+| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | &nbsp; |
 | [Set-GenXdevDefaultPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevdefaultpreference) | setPreferenceDefault | Sets a default preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreference) | setPreference | Sets a preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreferencesdatabasepath) | &nbsp; | Sets the database path for preferences used in GenXdev.Data operations. |
-| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a SQLite database store. |
-| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store databases. |
+| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a JSON file-based store. |
+| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store JSON files. |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Data/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1367,7 +1370,7 @@ SOFTWARE.
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
-| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | Retrieves a list of all available key-value store names from the database. |
+| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | &nbsp; |
 | [Get-SQLiteSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteschema) | &nbsp; | Retrieves the complete schema information from a SQLite database. |
 | [Get-SQLiteTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQLite database table. |
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
@@ -1389,8 +1392,9 @@ SOFTWARE.
 | [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
 | [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
-| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
-| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
+| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a JSON-based key-value store. |
+| [GetStoreFilePath](https://github.com/genXdev/GenXdev.Data/tree/main#getstorefilepath) | &nbsp; | &nbsp; |
+| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes KeyValueStore directory structure for local and OneDrive storage. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
 | [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
@@ -1398,13 +1402,13 @@ SOFTWARE.
 | [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
 | [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
-| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
-| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
+| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | &nbsp; |
+| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | &nbsp; |
 | [Set-GenXdevDefaultPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevdefaultpreference) | setPreferenceDefault | Sets a default preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreference) | setPreference | Sets a preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreferencesdatabasepath) | &nbsp; | Sets the database path for preferences used in GenXdev.Data operations. |
-| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a SQLite database store. |
-| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store databases. |
+| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a JSON file-based store. |
+| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store JSON files. |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Data/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1423,7 +1427,7 @@ SOFTWARE.
 | [Get-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreference) | getPreference | Retrieves a preference value from the GenXdev preferences store. |
 | [Get-GenXdevPreferenceNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencenames) | getPreferenceNames | Gets all preference names from session storage and database stores. |
 | [Get-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#get-genxdevpreferencesdatabasepath) | &nbsp; | Gets the configured database path for preference data files used in GenXdev.Data operations. |
-| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | Retrieves a list of all available key-value store names from the database. |
+| [Get-KeyValueStoreNames](https://github.com/genXdev/GenXdev.Data/tree/main#get-keyvaluestorenames) | getstorenames | &nbsp; |
 | [Get-SQLiteSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqliteschema) | &nbsp; | Retrieves the complete schema information from a SQLite database. |
 | [Get-SQLiteTableColumnData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetablecolumndata) | &nbsp; | Retrieves data from a specific column in a SQLite database table. |
 | [Get-SQLiteTableData](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlitetabledata) | &nbsp; | Retrieves data from a SQLite database table with optional record limiting. |
@@ -1445,8 +1449,9 @@ SOFTWARE.
 | [Get-SQLServerViews](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviews) | &nbsp; | Retrieves a list of views from a SQL Server database. |
 | [Get-SQLServerViewSchema](https://github.com/genXdev/GenXdev.Data/tree/main#get-sqlserverviewschema) | &nbsp; | Retrieves the SQL schema definition for a SQL Server view. |
 | [Get-StoreKeys](https://github.com/genXdev/GenXdev.Data/tree/main#get-storekeys) | getkeys | Retrieves all key names for a given key-value store. |
-| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a key-value store database. |
-| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes and synchronizes KeyValueStore databases between local and OneDrive. |
+| [Get-ValueByKeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#get-valuebykeyfromstore) | getvalue | Retrieves a value from a JSON-based key-value store. |
+| [GetStoreFilePath](https://github.com/genXdev/GenXdev.Data/tree/main#getstorefilepath) | &nbsp; | &nbsp; |
+| [Initialize-KeyValueStores](https://github.com/genXdev/GenXdev.Data/tree/main#initialize-keyvaluestores) | &nbsp; | Initializes KeyValueStore directory structure for local and OneDrive storage. |
 | [Invoke-SQLiteQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitequery) | &nbsp; | Executes one or more SQL queries against a SQLite database with transaction support. |
 | [Invoke-SQLiteStudio](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlitestudio) | &nbsp; | Executes SQLite database queries with support for parameters and transactions. |
 | [Invoke-SqlServerQuery](https://github.com/genXdev/GenXdev.Data/tree/main#invoke-sqlserverquery) | &nbsp; | Executes one or more SQL queries against a SQL Server database with transaction support. |
@@ -1454,13 +1459,13 @@ SOFTWARE.
 | [New-SQLiteDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlitedatabase) | &nbsp; | Creates a new SQLite database file. |
 | [New-SQLServerDatabase](https://github.com/genXdev/GenXdev.Data/tree/main#new-sqlserverdatabase) | nsqldb | Creates a new SQL Server database. |
 | [Remove-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#remove-genxdevpreference) | removePreference | Removes a preference value from the GenXdev preferences store. |
-| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | Deletes a key from the specified key-value store. |
-| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | Removes a key-value store from the database. |
+| [Remove-KeyFromStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyfromstore) | removekey | &nbsp; |
+| [Remove-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#remove-keyvaluestore) | &nbsp; | &nbsp; |
 | [Set-GenXdevDefaultPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevdefaultpreference) | setPreferenceDefault | Sets a default preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreference](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreference) | setPreference | Sets a preference value in the GenXdev preferences store. |
 | [Set-GenXdevPreferencesDatabasePath](https://github.com/genXdev/GenXdev.Data/tree/main#set-genxdevpreferencesdatabasepath) | &nbsp; | Sets the database path for preferences used in GenXdev.Data operations. |
-| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a SQLite database store. |
-| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store databases. |
+| [Set-ValueByKeyInStore](https://github.com/genXdev/GenXdev.Data/tree/main#set-valuebykeyinstore) | setvalue | Manages key-value pairs in a JSON file-based store. |
+| [Sync-KeyValueStore](https://github.com/genXdev/GenXdev.Data/tree/main#sync-keyvaluestore) | &nbsp; | Synchronizes local and OneDrive key-value store JSON files. |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Data/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1474,7 +1479,7 @@ SOFTWARE.
 
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
-| [Confirm-InstallationConsent](https://github.com/genXdev/GenXdev.FileSystem/tree/main#confirm-installationconsent) | &nbsp; | Confirms user consent for installing third-party software, using preferences for persistent choices. |
+| [Confirm-InstallationConsent](https://github.com/genXdev/GenXdev.FileSystem/tree/main#confirm-installationconsent) | &nbsp; | &nbsp; |
 | [EnsurePester](https://github.com/genXdev/GenXdev.FileSystem/tree/main#ensurepester) | &nbsp; | Ensures Pester testing framework is available for use. |
 | [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/tree/main#expand-path) | ep | Expands any given file reference to a full pathname. |
 | [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/tree/main#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
@@ -1482,6 +1487,7 @@ SOFTWARE.
 | [Invoke-Fasti](https://github.com/genXdev/GenXdev.FileSystem/tree/main#invoke-fasti) | fasti | &nbsp; |
 | [Move-ItemWithTracking](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-itemwithtracking) | &nbsp; | Moves files and directories while preserving filesystem links and references. |
 | [Move-ToRecycleBin](https://github.com/genXdev/GenXdev.FileSystem/tree/main#move-torecyclebin) | recycle | Moves files and directories to the Windows Recycle Bin safely. |
+| [ReadJsonWithRetry](https://github.com/genXdev/GenXdev.FileSystem/tree/main#readjsonwithretry) | &nbsp; | Reads JSON file with retry logic and automatic lock cleanup. |
 | [Remove-AllItems](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-allitems) | sdel | Recursively removes all content from a directory with advanced error handling. |
 | [Remove-ItemWithFallback](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-itemwithfallback) | rmf | Removes files or directories with multiple fallback mechanisms for reliable deletion. |
 | [Remove-OnReboot](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-onreboot) | &nbsp; | Marks files or directories for deletion during the next system boot. |
@@ -1489,6 +1495,7 @@ SOFTWARE.
 | [ResolveInputObjectFileNames](https://github.com/genXdev/GenXdev.FileSystem/tree/main#resolveinputobjectfilenames) | &nbsp; | &nbsp; |
 | [Start-RoboCopy](https://github.com/genXdev/GenXdev.FileSystem/tree/main#start-robocopy) | rc, xc | Provides a PowerShell wrapper for Microsoft's Robust Copy (RoboCopy) utility. |
 | [WriteFileOutput](https://github.com/genXdev/GenXdev.FileSystem/tree/main#writefileoutput) | &nbsp; | &nbsp; |
+| [WriteJsonAtomic](https://github.com/genXdev/GenXdev.FileSystem/tree/main#writejsonatomic) | &nbsp; | &nbsp; |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.FileSystem/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
