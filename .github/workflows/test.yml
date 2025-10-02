@@ -26,24 +26,56 @@ jobs:
         shell: pwsh
         run: |
           Write-Host "Current PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Cyan
+
+          # Check if PowerShell 7 is already installed
+          $existingPS7 = "C:\Program Files\PowerShell\7"
+          if (Test-Path "$existingPS7\pwsh.exe") {
+            Write-Host "PowerShell 7 already exists at: $existingPS7" -ForegroundColor Yellow
+            $existingVersion = & "$existingPS7\pwsh.exe" -Command '$PSVersionTable.PSVersion.ToString()'
+            Write-Host "Existing version: $existingVersion" -ForegroundColor Cyan
+          }
+
           Write-Host "Installing PowerShell 7.5.0..." -ForegroundColor Yellow
 
           $uri = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.msi"
           $msiPath = "$env:TEMP\PowerShell-7.5.0-win-x64.msi"
+          $logPath = "$env:TEMP\ps-install.log"
 
           try {
             Write-Host "Downloading PowerShell 7.5.0..." -ForegroundColor Yellow
             Invoke-WebRequest -Uri $uri -OutFile $msiPath -UseBasicParsing -ErrorAction Stop
             Write-Host "Download complete: $msiPath" -ForegroundColor Green
+            Write-Host "File size: $((Get-Item $msiPath).Length / 1MB) MB" -ForegroundColor Cyan
 
-            Write-Host "Installing MSI..." -ForegroundColor Yellow
-            $process = Start-Process msiexec.exe -ArgumentList "/i `"$msiPath`" /quiet /norestart /log `"$env:TEMP\ps-install.log`" ADD_PATH=1" -Wait -NoNewWindow -PassThru
+            Write-Host "Installing MSI (this may take a few minutes)..." -ForegroundColor Yellow
+            $arguments = @(
+              "/i"
+              "`"$msiPath`""
+              "/quiet"
+              "/norestart"
+              "/log"
+              "`"$logPath`""
+              "ADD_PATH=1"
+              "ENABLE_PSREMOTING=1"
+            )
+            Write-Host "MSI Arguments: $($arguments -join ' ')" -ForegroundColor Cyan
+
+            $process = Start-Process msiexec.exe -ArgumentList $arguments -Wait -NoNewWindow -PassThru
+
+            Write-Host "MSI process exited with code: $($process.ExitCode)" -ForegroundColor $(if ($process.ExitCode -eq 0) { 'Green' } else { 'Red' })
 
             if ($process.ExitCode -ne 0) {
-              Write-Host "MSI installation failed with exit code: $($process.ExitCode)" -ForegroundColor Red
-              if (Test-Path "$env:TEMP\ps-install.log") {
-                Write-Host "Installation log:" -ForegroundColor Yellow
-                Get-Content "$env:TEMP\ps-install.log" | Select-Object -Last 50
+              Write-Host "`nMSI installation failed with exit code: $($process.ExitCode)" -ForegroundColor Red
+              Write-Host "Common exit codes:" -ForegroundColor Yellow
+              Write-Host "  1603 = Fatal error during installation" -ForegroundColor Yellow
+              Write-Host "  1618 = Another installation is in progress" -ForegroundColor Yellow
+              Write-Host "  1619 = Installation package could not be opened" -ForegroundColor Yellow
+
+              if (Test-Path $logPath) {
+                Write-Host "`nLast 100 lines of installation log:" -ForegroundColor Yellow
+                Get-Content $logPath | Select-Object -Last 100 | Write-Host
+              } else {
+                Write-Host "Log file not found at: $logPath" -ForegroundColor Red
               }
               exit $process.ExitCode
             }
@@ -52,17 +84,24 @@ jobs:
             $newPath = "C:\Program Files\PowerShell\7"
             Add-Content -Path $env:GITHUB_PATH -Value $newPath
 
-            Write-Host "PowerShell 7.5.0 installed successfully" -ForegroundColor Green
+            Write-Host "`n✓ PowerShell 7.5.0 installed successfully" -ForegroundColor Green
 
             # Verify installation
             if (Test-Path "$newPath\pwsh.exe") {
-              Write-Host "Verified pwsh.exe exists at $newPath" -ForegroundColor Green
+              $installedVersion = & "$newPath\pwsh.exe" -Command '$PSVersionTable.PSVersion.ToString()'
+              Write-Host "✓ Verified installation: $installedVersion" -ForegroundColor Green
             } else {
-              Write-Warning "pwsh.exe not found at expected location"
+              Write-Warning "pwsh.exe not found at expected location: $newPath"
+              exit 1
             }
           } catch {
             Write-Error "Failed to install PowerShell: $($_.Exception.Message)"
             Write-Host "Stack trace: $($_.ScriptStackTrace)" -ForegroundColor Red
+
+            if (Test-Path $logPath) {
+              Write-Host "`nInstallation log:" -ForegroundColor Yellow
+              Get-Content $logPath | Select-Object -Last 100 | Write-Host
+            }
             exit 1
           }
 
