@@ -1,0 +1,153 @@
+name: Run Unit Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Wait for dependencies to be available
+        if: github.event_name == 'push'
+        shell: pwsh
+        run: |
+          Write-Host "Waiting 1 minutes to ensure dependency modules are available..." -ForegroundColor Yellow
+          Start-Sleep -Seconds 60
+          Write-Host "Proceeding with tests" -ForegroundColor Green
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: modules/GenXdev/1.290.2025
+
+      - name: Checkout GenXdev.AI
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.AI/1.290.2025
+          path: modules/GenXdev.AI/1.290.2025
+
+      - name: Checkout GenXdev.Coding
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Coding/1.290.2025
+          path: modules/GenXdev.Coding/1.290.2025
+
+      - name: Checkout GenXdev.Console
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Console/1.290.2025
+          path: modules/GenXdev.Console/1.290.2025
+
+      - name: Checkout GenXdev.Data
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Data/1.290.2025
+          path: modules/GenXdev.Data/1.290.2025
+
+      - name: Checkout GenXdev.FileSystem
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.FileSystem/1.290.2025
+          path: modules/GenXdev.FileSystem/1.290.2025
+
+      - name: Checkout GenXdev.Helpers
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Helpers/1.290.2025
+          path: modules/GenXdev.Helpers/1.290.2025
+
+      - name: Checkout GenXdev.Media
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Media/1.290.2025
+          path: modules/GenXdev.Media/1.290.2025
+
+      - name: Checkout GenXdev.Queries
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Queries/1.290.2025
+          path: modules/GenXdev.Queries/1.290.2025
+
+      - name: Checkout GenXdev.Webbrowser
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Webbrowser/1.290.2025
+          path: modules/GenXdev.Webbrowser/1.290.2025
+
+      - name: Checkout GenXdev.Windows
+        uses: actions/checkout@v4
+        with:
+          repository: genXdev/GenXdev.Windows/1.290.2025
+          path: modules/GenXdev.Windows/1.290.2025
+
+      - name: Setup PowerShell modules
+        shell: pwsh
+        run: |
+          if (-not [IO.Directory]::Exists("$ENV:LOCALAPPDATA\GenXdev.PowerShell")) {
+
+            [IO.Directory]::CreateDirectory("$ENV:LOCALAPPDATA\GenXdev.PowerShell")
+          }
+          '{"AllowInstall_GenXdevGlobal": "true"}' | Out-File "$ENV:LOCALAPPDATA\GenXdev.PowerShell\SoftwareConsent.json" -Force
+
+          Write-Host "Installing required modules..."
+
+          # Install Pester if needed
+          if (-not (Get-Module -ListAvailable -Name Pester)) {
+            Install-Module -Name Pester -Force -SkipPublisherCheck -Scope CurrentUser
+          }
+
+          # Install PSScriptAnalyzer if needed
+          if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
+            Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck -Scope CurrentUser
+          }
+
+          # Setup module path - PowerShell will auto-discover all modules
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+          Write-Host "PSModulePath: $env:PSModulePath" -ForegroundColor Cyan
+
+          # Import main module - dependencies will be loaded automatically
+          Write-Host "Importing GenXdev (dependencies will load automatically)..." -ForegroundColor Yellow
+          try {
+            Import-Module GenXdev -Force -ErrorAction Stop
+            Write-Host "✓ Successfully imported GenXdev and all dependencies" -ForegroundColor Green
+
+            # Display loaded GenXdev modules for verification
+            $loadedModules = Get-Module | Where-Object { $_.Name -like 'GenXdev*' } | Select-Object -ExpandProperty Name
+            Write-Host "Loaded modules: $($loadedModules -join ', ')" -ForegroundColor Cyan
+          } catch {
+            Write-Error "Failed to import GenXdev: $($_.Exception.Message)"
+            Write-Host "Stack trace: $($_.ScriptStackTrace)" -ForegroundColor Red
+            exit 1
+          }
+
+      - name: Run PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPesterTests
+
+          if (-not $results.Success) {
+
+              $results.AnalyzerResults | ConvertTo-Json -Depth 10
+              exit 1
+              return
+          }
+
+          exit 0
+      - name: Run Pester tests
+        shell: pwsh
+        run: |
+          $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPSAnalyzerTests
+
+          if (-not $results.Success) {
+
+              $results.TestResults.Failed | ConvertTo-Json -Depth 10
+              exit 1
+              return
+          }
+
+          exit 0
