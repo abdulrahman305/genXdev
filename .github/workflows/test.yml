@@ -22,66 +22,66 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: modules/GenXdev/1.290.2025
+          path: modules/GenXdev
 
       - name: Checkout GenXdev.AI
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.AI/1.290.2025
+          repository: genXdev/GenXdev.AI
           path: modules/GenXdev.AI/1.290.2025
 
       - name: Checkout GenXdev.Coding
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Coding/1.290.2025
+          repository: genXdev/GenXdev.Coding
           path: modules/GenXdev.Coding/1.290.2025
 
       - name: Checkout GenXdev.Console
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Console/1.290.2025
+          repository: genXdev/GenXdev.Console
           path: modules/GenXdev.Console/1.290.2025
 
       - name: Checkout GenXdev.Data
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Data/1.290.2025
+          repository: genXdev/GenXdev.Data
           path: modules/GenXdev.Data/1.290.2025
 
       - name: Checkout GenXdev.FileSystem
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.FileSystem/1.290.2025
+          repository: genXdev/GenXdev.FileSystem
           path: modules/GenXdev.FileSystem/1.290.2025
 
       - name: Checkout GenXdev.Helpers
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Helpers/1.290.2025
+          repository: genXdev/GenXdev.Helpers
           path: modules/GenXdev.Helpers/1.290.2025
 
       - name: Checkout GenXdev.Media
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Media/1.290.2025
+          repository: genXdev/GenXdev.Media
           path: modules/GenXdev.Media/1.290.2025
 
       - name: Checkout GenXdev.Queries
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Queries/1.290.2025
+          repository: genXdev/GenXdev.Queries
           path: modules/GenXdev.Queries/1.290.2025
 
       - name: Checkout GenXdev.Webbrowser
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Webbrowser/1.290.2025
+          repository: genXdev/GenXdev.Webbrowser
           path: modules/GenXdev.Webbrowser/1.290.2025
 
       - name: Checkout GenXdev.Windows
         uses: actions/checkout@v4
         with:
-          repository: genXdev/GenXdev.Windows/1.290.2025
+          repository: genXdev/GenXdev.Windows
           path: modules/GenXdev.Windows/1.290.2025
 
       - name: Setup PowerShell modules
