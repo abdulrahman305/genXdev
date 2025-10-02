@@ -25,6 +25,7 @@ jobs:
       - name: Install PowerShell 7.5.0
         shell: pwsh
         run: |
+          $ErrorActionPreference = 'Continue'
           Write-Host "Current PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Cyan
 
           # Check if PowerShell 7 is already installed
@@ -60,7 +61,9 @@ jobs:
             )
             Write-Host "MSI Arguments: $($arguments -join ' ')" -ForegroundColor Cyan
 
-            $process = Start-Process msiexec.exe -ArgumentList $arguments -Wait -NoNewWindow -PassThru
+            Write-Host "Starting msiexec process..." -ForegroundColor Cyan
+            $process = Start-Process msiexec.exe -ArgumentList $arguments -Wait -NoNewWindow -PassThru -ErrorAction Stop
+            Write-Host "Process completed" -ForegroundColor Cyan
 
             Write-Host "MSI process exited with code: $($process.ExitCode)" -ForegroundColor $(if ($process.ExitCode -eq 0) { 'Green' } else { 'Red' })
 
