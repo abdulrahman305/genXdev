@@ -20,23 +20,51 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: modules/GenXdev
+          path: modules/GenXdev/1.290.2025
 
       - name: Install PowerShell 7.5.0
         shell: pwsh
         run: |
+          Write-Host "Current PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Cyan
           Write-Host "Installing PowerShell 7.5.0..." -ForegroundColor Yellow
+
           $uri = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-x64.msi"
           $msiPath = "$env:TEMP\PowerShell-7.5.0-win-x64.msi"
 
-          Invoke-WebRequest -Uri $uri -OutFile $msiPath -UseBasicParsing
-          Start-Process msiexec.exe -ArgumentList "/i `"$msiPath`" /quiet /norestart ADD_PATH=1" -Wait -NoNewWindow
+          try {
+            Write-Host "Downloading PowerShell 7.5.0..." -ForegroundColor Yellow
+            Invoke-WebRequest -Uri $uri -OutFile $msiPath -UseBasicParsing -ErrorAction Stop
+            Write-Host "Download complete: $msiPath" -ForegroundColor Green
 
-          # Update PATH for subsequent steps
-          $newPath = "C:\Program Files\PowerShell\7"
-          Add-Content -Path $env:GITHUB_PATH -Value $newPath
+            Write-Host "Installing MSI..." -ForegroundColor Yellow
+            $process = Start-Process msiexec.exe -ArgumentList "/i `"$msiPath`" /quiet /norestart /log `"$env:TEMP\ps-install.log`" ADD_PATH=1" -Wait -NoNewWindow -PassThru
 
-          Write-Host "PowerShell 7.5.0 installed successfully" -ForegroundColor Green
+            if ($process.ExitCode -ne 0) {
+              Write-Host "MSI installation failed with exit code: $($process.ExitCode)" -ForegroundColor Red
+              if (Test-Path "$env:TEMP\ps-install.log") {
+                Write-Host "Installation log:" -ForegroundColor Yellow
+                Get-Content "$env:TEMP\ps-install.log" | Select-Object -Last 50
+              }
+              exit $process.ExitCode
+            }
+
+            # Update PATH for subsequent steps
+            $newPath = "C:\Program Files\PowerShell\7"
+            Add-Content -Path $env:GITHUB_PATH -Value $newPath
+
+            Write-Host "PowerShell 7.5.0 installed successfully" -ForegroundColor Green
+
+            # Verify installation
+            if (Test-Path "$newPath\pwsh.exe") {
+              Write-Host "Verified pwsh.exe exists at $newPath" -ForegroundColor Green
+            } else {
+              Write-Warning "pwsh.exe not found at expected location"
+            }
+          } catch {
+            Write-Error "Failed to install PowerShell: $($_.Exception.Message)"
+            Write-Host "Stack trace: $($_.ScriptStackTrace)" -ForegroundColor Red
+            exit 1
+          }
 
       - name: Checkout GenXdev.AI
         uses: actions/checkout@v4
@@ -98,16 +126,20 @@ jobs:
           repository: genXdev/GenXdev.Windows
           path: modules/GenXdev.Windows/1.290.2025
 
-      - name: Setup PowerShell modules
+      - name: Install dependencies (Pester and PSScriptAnalyzer)
         shell: pwsh
         run: |
           if (-not [IO.Directory]::Exists("$ENV:LOCALAPPDATA\GenXdev.PowerShell")) {
-
             [IO.Directory]::CreateDirectory("$ENV:LOCALAPPDATA\GenXdev.PowerShell")
           }
           '{"AllowInstall_GenXdevGlobal": "true"}' | Out-File "$ENV:LOCALAPPDATA\GenXdev.PowerShell\SoftwareConsent.json" -Force
 
-          Write-Host "Installing required modules..."
+          # Setup module path before installing dependencies
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+          Write-Host "PSModulePath: $env:PSModulePath" -ForegroundColor Cyan
+
+          Write-Host "Installing required modules..." -ForegroundColor Yellow
 
           # Install Pester if needed
           if (-not (Get-Module -ListAvailable -Name Pester)) {
@@ -119,49 +151,46 @@ jobs:
             Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck -Scope CurrentUser
           }
 
-          # Setup module path - PowerShell will auto-discover all modules
-          $modulesPath = "${{ github.workspace }}/modules"
-          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
-          Write-Host "PSModulePath: $env:PSModulePath" -ForegroundColor Cyan
-
-          # Import main module - dependencies will be loaded automatically
-          Write-Host "Importing GenXdev (dependencies will load automatically)..." -ForegroundColor Yellow
-          try {
-            Import-Module GenXdev -Force -ErrorAction Stop
-            Write-Host "✓ Successfully imported GenXdev and all dependencies" -ForegroundColor Green
-
-            # Display loaded GenXdev modules for verification
-            $loadedModules = Get-Module | Where-Object { $_.Name -like 'GenXdev*' } | Select-Object -ExpandProperty Name
-            Write-Host "Loaded modules: $($loadedModules -join ', ')" -ForegroundColor Cyan
-          } catch {
-            Write-Error "Failed to import GenXdev: $($_.Exception.Message)"
-            Write-Host "Stack trace: $($_.ScriptStackTrace)" -ForegroundColor Red
-            exit 1
-          }
+          Write-Host "✓ Dependencies installed" -ForegroundColor Green
 
       - name: Run PSScriptAnalyzer
         shell: pwsh
         run: |
+          # Setup module path for this step
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+          Write-Host "PSModulePath: $env:PSModulePath" -ForegroundColor Cyan
+
+          # Import GenXdev modules
+          Import-Module GenXdev -Force -ErrorAction Stop
+
+          # Run tests
           $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPesterTests
 
           if (-not $results.Success) {
-
               $results.AnalyzerResults | ConvertTo-Json -Depth 10
               exit 1
-              return
           }
 
           exit 0
+
       - name: Run Pester tests
         shell: pwsh
         run: |
+          # Setup module path for this step
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+          Write-Host "PSModulePath: $env:PSModulePath" -ForegroundColor Cyan
+
+          # Import GenXdev modules
+          Import-Module GenXdev -Force -ErrorAction Stop
+
+          # Run tests
           $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPSAnalyzerTests
 
           if (-not $results.Success) {
-
               $results.TestResults.Failed | ConvertTo-Json -Depth 10
               exit 1
-              return
           }
 
           exit 0
@@ -191,13 +220,19 @@ jobs:
           Write-Host "Re-running tests on PowerShell 7.5.3..." -ForegroundColor Cyan
           Write-Host "Current PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Cyan
 
+          # Setup module path for this step
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+
+          # Import GenXdev modules
+          Import-Module GenXdev -Force -ErrorAction Stop
+
+          # Run tests
           $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPesterTests
 
           if (-not $results.Success) {
-
               $results.AnalyzerResults | ConvertTo-Json -Depth 10
               exit 1
-              return
           }
 
           exit 0
@@ -208,13 +243,19 @@ jobs:
           Write-Host "Re-running Pester tests on PowerShell 7.5.3..." -ForegroundColor Cyan
           Write-Host "Current PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Cyan
 
+          # Setup module path for this step
+          $modulesPath = "${{ github.workspace }}/modules"
+          $env:PSModulePath = "$modulesPath;$env:PSModulePath"
+
+          # Import GenXdev modules
+          Import-Module GenXdev -Force -ErrorAction Stop
+
+          # Run tests
           $results = GenXdev.Coding\Assert-GenXdevTest -TestFailedAction Continue -Verbosity Detailed -ErrorAction SilentlyContinue -SkipPSAnalyzerTests
 
           if (-not $results.Success) {
-
               $results.TestResults.Failed | ConvertTo-Json -Depth 10
               exit 1
-              return
           }
 
           exit 0
