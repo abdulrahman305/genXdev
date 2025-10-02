@@ -49,26 +49,21 @@ jobs:
             Write-Host "File size: $((Get-Item $msiPath).Length / 1MB) MB" -ForegroundColor Cyan
 
             Write-Host "Installing MSI (this may take a few minutes)..." -ForegroundColor Yellow
-            $arguments = @(
-              "/i"
-              "`"$msiPath`""
-              "/quiet"
-              "/norestart"
-              "/log"
-              "`"$logPath`""
-              "ADD_PATH=1"
-              "ENABLE_PSREMOTING=1"
-            )
-            Write-Host "MSI Arguments: $($arguments -join ' ')" -ForegroundColor Cyan
 
-            Write-Host "Starting msiexec process..." -ForegroundColor Cyan
-            $process = Start-Process msiexec.exe -ArgumentList $arguments -Wait -NoNewWindow -PassThru -ErrorAction Stop
-            Write-Host "Process completed" -ForegroundColor Cyan
+            # Use cmd.exe to run msiexec (more reliable in GitHub Actions)
+            $cmd = "msiexec.exe /i `"$msiPath`" /quiet /norestart /log `"$logPath`" ADD_PATH=1 ENABLE_PSREMOTING=1"
+            Write-Host "Command: $cmd" -ForegroundColor Cyan
 
-            Write-Host "MSI process exited with code: $($process.ExitCode)" -ForegroundColor $(if ($process.ExitCode -eq 0) { 'Green' } else { 'Red' })
+            # Execute and wait for completion
+            $exitCode = (Start-Process cmd.exe -ArgumentList "/c", $cmd -Wait -NoNewWindow -PassThru).ExitCode
 
-            if ($process.ExitCode -ne 0) {
-              Write-Host "`nMSI installation failed with exit code: $($process.ExitCode)" -ForegroundColor Red
+            Write-Host "MSI installation exited with code: $exitCode" -ForegroundColor $(if ($exitCode -eq 0) { 'Green' } else { 'Red' })
+
+            # Give it a moment to complete file operations
+            Start-Sleep -Seconds 5
+
+            if ($exitCode -ne 0) {
+              Write-Host "`nMSI installation failed with exit code: $exitCode" -ForegroundColor Red
               Write-Host "Common exit codes:" -ForegroundColor Yellow
               Write-Host "  1603 = Fatal error during installation" -ForegroundColor Yellow
               Write-Host "  1618 = Another installation is in progress" -ForegroundColor Yellow
@@ -80,7 +75,7 @@ jobs:
               } else {
                 Write-Host "Log file not found at: $logPath" -ForegroundColor Red
               }
-              exit $process.ExitCode
+              exit $exitCode
             }
 
             # Update PATH for subsequent steps
