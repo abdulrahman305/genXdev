@@ -1526,8 +1526,11 @@ SOFTWARE.
 | [Invoke-OnEachGenXdevModule](https://github.com/genXdev/GenXdev.Helpers/tree/main#invoke-oneachgenxdevmodule) | foreach-genxdev-module-do | Executes a script block on each GenXdev module in the workspace. |
 | [Out-Serial](https://github.com/genXdev/GenXdev.Helpers/tree/main#out-serial) | &nbsp; | Sends a string to a serial port |
 | [Remove-JSONComments](https://github.com/genXdev/GenXdev.Helpers/tree/main#remove-jsoncomments) | &nbsp; | Removes comments from JSON content. |
+| [resetdefaultmonitor](https://github.com/genXdev/GenXdev.Helpers/tree/main#resetdefaultmonitor) | &nbsp; | Restores default secondary monitor configuration. |
+| [SecondScreen](https://github.com/genXdev/GenXdev.Helpers/tree/main#secondscreen) | &nbsp; | Sets default second-monitor configuration. |
 | [Show-GenXDevCmdlet](https://github.com/genXdev/GenXdev.Helpers/tree/main#show-genxdevcmdlet) | cmds | Displays GenXdev PowerShell modules with their cmdlets and aliases. |
 | [Show-Verb](https://github.com/genXdev/GenXdev.Helpers/tree/main#show-verb) | showverbs | Shows a short alphabetical list of all PowerShell verbs. |
+| [SideBySide](https://github.com/genXdev/GenXdev.Helpers/tree/main#sidebyside) | &nbsp; | Sets default side-by-side configuration. |
 | [Test-UnattendedMode](https://github.com/genXdev/GenXdev.Helpers/tree/main#test-unattendedmode) | &nbsp; | Detects if PowerShell is running in unattended/automated mode |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
@@ -1560,8 +1563,11 @@ SOFTWARE.
 | [Invoke-OnEachGenXdevModule](https://github.com/genXdev/GenXdev.Helpers/tree/main#invoke-oneachgenxdevmodule) | foreach-genxdev-module-do | Executes a script block on each GenXdev module in the workspace. |
 | [Out-Serial](https://github.com/genXdev/GenXdev.Helpers/tree/main#out-serial) | &nbsp; | Sends a string to a serial port |
 | [Remove-JSONComments](https://github.com/genXdev/GenXdev.Helpers/tree/main#remove-jsoncomments) | &nbsp; | Removes comments from JSON content. |
+| [resetdefaultmonitor](https://github.com/genXdev/GenXdev.Helpers/tree/main#resetdefaultmonitor) | &nbsp; | Restores default secondary monitor configuration. |
+| [SecondScreen](https://github.com/genXdev/GenXdev.Helpers/tree/main#secondscreen) | &nbsp; | Sets default second-monitor configuration. |
 | [Show-GenXDevCmdlet](https://github.com/genXdev/GenXdev.Helpers/tree/main#show-genxdevcmdlet) | cmds | Displays GenXdev PowerShell modules with their cmdlets and aliases. |
 | [Show-Verb](https://github.com/genXdev/GenXdev.Helpers/tree/main#show-verb) | showverbs | Shows a short alphabetical list of all PowerShell verbs. |
+| [SideBySide](https://github.com/genXdev/GenXdev.Helpers/tree/main#sidebyside) | &nbsp; | Sets default side-by-side configuration. |
 | [Test-UnattendedMode](https://github.com/genXdev/GenXdev.Helpers/tree/main#test-unattendedmode) | &nbsp; | Detects if PowerShell is running in unattended/automated mode |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
