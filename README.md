@@ -1005,11 +1005,6 @@ SOFTWARE.
 | [Search-Spotify](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotify) | fm, sm | Performs a Spotify search and returns matching items. |
 | [Search-SpotifyAndEnqueue](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandenqueue) | fmq, smq | Searches Spotify and adds the first matching item to the playback queue. |
 | [Search-SpotifyAndPlay](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandplay) | fmp, smp | Performs a Spotify search and plays the first found item. |
-| [Set-LocationParent](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent) | .. | Changes the current location to the parent directory and lists its contents. |
-| [Set-LocationParent2](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent2) | ... | Navigates up two directory levels in the file system hierarchy. |
-| [Set-LocationParent3](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent3) | .... | Navigates up three directory levels in the file system hierarchy. |
-| [Set-LocationParent4](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent4) | ..... | Navigates up four directory levels in the filesystem hierarchy. |
-| [Set-LocationParent5](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent5) | ...... | Navigates up five directory levels in the file system hierarchy. |
 | [Set-MonitorPowerOff](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweroff) | poweroff | Turns off power to all connected monitors. |
 | [Set-MonitorPowerOn](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweron) | monitoroff, wakemonitor | Turns the monitor power on. |
 | [Set-SpotifyActiveDevice](https://github.com/genXdev/GenXdev.Console/tree/main#set-spotifyactivedevice) | &nbsp; | Sets the active Spotify playback device. |
@@ -1078,11 +1073,6 @@ SOFTWARE.
 | [Search-Spotify](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotify) | fm, sm | Performs a Spotify search and returns matching items. |
 | [Search-SpotifyAndEnqueue](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandenqueue) | fmq, smq | Searches Spotify and adds the first matching item to the playback queue. |
 | [Search-SpotifyAndPlay](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandplay) | fmp, smp | Performs a Spotify search and plays the first found item. |
-| [Set-LocationParent](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent) | .. | Changes the current location to the parent directory and lists its contents. |
-| [Set-LocationParent2](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent2) | ... | Navigates up two directory levels in the file system hierarchy. |
-| [Set-LocationParent3](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent3) | .... | Navigates up three directory levels in the file system hierarchy. |
-| [Set-LocationParent4](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent4) | ..... | Navigates up four directory levels in the filesystem hierarchy. |
-| [Set-LocationParent5](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent5) | ...... | Navigates up five directory levels in the file system hierarchy. |
 | [Set-MonitorPowerOff](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweroff) | poweroff | Turns off power to all connected monitors. |
 | [Set-MonitorPowerOn](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweron) | monitoroff, wakemonitor | Turns the monitor power on. |
 | [Set-SpotifyActiveDevice](https://github.com/genXdev/GenXdev.Console/tree/main#set-spotifyactivedevice) | &nbsp; | Sets the active Spotify playback device. |
@@ -1151,11 +1141,6 @@ SOFTWARE.
 | [Search-Spotify](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotify) | fm, sm | Performs a Spotify search and returns matching items. |
 | [Search-SpotifyAndEnqueue](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandenqueue) | fmq, smq | Searches Spotify and adds the first matching item to the playback queue. |
 | [Search-SpotifyAndPlay](https://github.com/genXdev/GenXdev.Console/tree/main#search-spotifyandplay) | fmp, smp | Performs a Spotify search and plays the first found item. |
-| [Set-LocationParent](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent) | .. | Changes the current location to the parent directory and lists its contents. |
-| [Set-LocationParent2](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent2) | ... | Navigates up two directory levels in the file system hierarchy. |
-| [Set-LocationParent3](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent3) | .... | Navigates up three directory levels in the file system hierarchy. |
-| [Set-LocationParent4](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent4) | ..... | Navigates up four directory levels in the filesystem hierarchy. |
-| [Set-LocationParent5](https://github.com/genXdev/GenXdev.Console/tree/main#set-locationparent5) | ...... | Navigates up five directory levels in the file system hierarchy. |
 | [Set-MonitorPowerOff](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweroff) | poweroff | Turns off power to all connected monitors. |
 | [Set-MonitorPowerOn](https://github.com/genXdev/GenXdev.Console/tree/main#set-monitorpoweron) | monitoroff, wakemonitor | Turns the monitor power on. |
 | [Set-SpotifyActiveDevice](https://github.com/genXdev/GenXdev.Console/tree/main#set-spotifyactivedevice) | &nbsp; | Sets the active Spotify playback device. |
@@ -1493,6 +1478,12 @@ SOFTWARE.
 | [Remove-OnReboot](https://github.com/genXdev/GenXdev.FileSystem/tree/main#remove-onreboot) | &nbsp; | Marks files or directories for deletion during the next system boot. |
 | [Rename-InProject](https://github.com/genXdev/GenXdev.FileSystem/tree/main#rename-inproject) | rip | Performs text replacement throughout a project directory. |
 | [ResolveInputObjectFileNames](https://github.com/genXdev/GenXdev.FileSystem/tree/main#resolveinputobjectfilenames) | &nbsp; | &nbsp; |
+| [Set-FoundLocation](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-foundlocation) | lcd | Finds the first matching file or folder and sets the location to it. |
+| [Set-LocationParent](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-locationparent) | .. | Changes the current location to the parent directory and lists its contents. |
+| [Set-LocationParent2](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-locationparent2) | ... | Navigates up two directory levels in the file system hierarchy. |
+| [Set-LocationParent3](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-locationparent3) | .... | Navigates up three directory levels in the file system hierarchy. |
+| [Set-LocationParent4](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-locationparent4) | ..... | Navigates up four directory levels in the filesystem hierarchy. |
+| [Set-LocationParent5](https://github.com/genXdev/GenXdev.FileSystem/tree/main#set-locationparent5) | ...... | Navigates up five directory levels in the file system hierarchy. |
 | [Start-RoboCopy](https://github.com/genXdev/GenXdev.FileSystem/tree/main#start-robocopy) | rc, xc | Provides a PowerShell wrapper for Microsoft's Robust Copy (RoboCopy) utility. |
 | [WriteFileOutput](https://github.com/genXdev/GenXdev.FileSystem/tree/main#writefileoutput) | &nbsp; | &nbsp; |
 | [WriteJsonAtomic](https://github.com/genXdev/GenXdev.FileSystem/tree/main#writejsonatomic) | &nbsp; | &nbsp; |
