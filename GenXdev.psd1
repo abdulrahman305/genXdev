@@ -4,7 +4,7 @@
     RootModule           = 'GenXdev.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '1.298.2025'
+    ModuleVersion        = '1.300.2025'
 
     # Supported PSEditions
     CompatiblePSEditions = 'Core'
@@ -45,8 +45,8 @@
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules      = @(
 
-        @{ModuleName = 'GenXdev.Coding'; ModuleVersion = '1.298.2025'; },
-        @{ModuleName = 'GenXdev.Media'; ModuleVersion = '1.298.2025'; }
+        @{ModuleName = 'GenXdev.Coding'; ModuleVersion = '1.300.2025'; },
+        @{ModuleName = 'GenXdev.Media'; ModuleVersion = '1.300.2025'; }
     )
 
     # Assemblies that must be loaded prior to importing this module
@@ -83,8 +83,7 @@
     ModuleList           = @('GenXdev')
 
     # List of all files packaged with this module
-    FileList             = '.\\GenXdev.psd1', '.\\GenXdev.psm1', '.\\LICENSE', '.\\license.txt',
-    'powershell.jpg', 'README.md'
+    FileList             = '.\GenXdev.psd1', '.\GenXdev.psm1', '.\LICENSE', 'powershell.jpg', 'README.md'
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData          = @{
@@ -95,7 +94,7 @@
             Tags       = 'Helpers', 'Windows', 'FileSystem', 'Data', 'Webbrowser', 'Queries', 'Console', 'AI'
 
             # A URL to the license for this module.
-            # LicenseUri = 'https://raw.githubusercontent.com/genXdev/GenXdev.Coding/main/LICENSE'
+            LicenseUri = 'https://opensource.org/license/MIT'
 
             # A URL to the main website for this project.
             ProjectUri = 'https://powershell.genxdev.net/'
@@ -110,7 +109,7 @@
             # Prerelease = ''
 
             # Flag to indicate whether the module requires explicit user acceptance for install/update/save
-            # RequireLicenseAcceptance = $false
+            RequireLicenseAcceptance = $true
 
             # External dependent modules of this module
             # ExternalModuleDependencies = @()
