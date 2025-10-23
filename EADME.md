@@ -1461,7 +1461,7 @@ limitations under the License.
 | Command | Aliases | Description |
 | :--- | :--- | :--- |
 | [Confirm-InstallationConsent](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#confirm-installationconsent) | &nbsp; | &nbsp; |
-| [Copy-IdenticalParamValues](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#copy-identicalparamvalues) | &nbsp; | &nbsp; |
+| [Copy-IdenticalParamValues](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#copy-identicalparamvalues) | &nbsp; | Copies parameter values from bound parameters to a new hashtable based on another function's possible parameters. |
 | [EnsurePester](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#ensurepester) | &nbsp; | &nbsp; |
 | [Expand-Path](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#expand-path) | ep | Expands any given file reference to a full pathname. |
 | [Find-DuplicateFiles](https://github.com/genXdev/GenXdev.FileSystem/tree/main?tab=readme-ov-file#find-duplicatefiles) | fdf | Find duplicate files across multiple directories based on configurable criteria. |
@@ -1504,6 +1504,7 @@ limitations under the License.
 | [EnsureNuGetAssembly](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#ensurenugetassembly) | &nbsp; | Downloads and loads .NET assemblies from NuGet packages based on package key or ID. |
 | [Get-ApparentSizeAtArmLength](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-apparentsizeatarmlength) | &nbsp; | Calculates the apparent size of an object at arm's length. |
 | [Get-AtEyeLengthSizeInMM](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-ateyelengthsizeinmm) | &nbsp; | Calculates the apparent size in mm of an object at arm's length, based on its actual size and distance. |
+| [Get-AudioDeviceNames](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-audiodevicenames) | &nbsp; | Retrieves the names of available audio devices for microphone or desktop audio capture. |
 | [Get-BuoyantForceByDisplacedVolumeAndDensity](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-buoyantforcebydisplacedvolumeanddensity) | &nbsp; | Calculates buoyant force. |
 | [Get-CentripetalAccelerationByVelocityAndRadius](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-centripetalaccelerationbyvelocityandradius) | &nbsp; | Calculates centripetal acceleration. |
 | [Get-DefaultWebLanguage](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-defaultweblanguage) | &nbsp; | Gets the default web language key based on the system's current language settings. |
@@ -1536,12 +1537,14 @@ limitations under the License.
 | [Initialize-SearchPaths](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#initialize-searchpaths) | &nbsp; | Initializes and configures system search paths for package management. |
 | [Invoke-OnEachGenXdevModule](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#invoke-oneachgenxdevmodule) | foreach-genxdev-module-do | Executes a script block on each GenXdev module in the workspace. |
 | [Out-Serial](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#out-serial) | &nbsp; | Sends a string to a serial port |
-| [Receive-RealTimeSpeechToText](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#receive-realtimespeechtotext) | &nbsp; | &nbsp; |
+| [Receive-RealTimeSpeechToText](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#receive-realtimespeechtotext) | &nbsp; | Converts real-time audio input to text using Whisper AI model. |
+| [Remove-JSONComments](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#remove-jsoncomments) | &nbsp; | Removes comments from JSON content. |
 | [resetdefaultmonitor](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#resetdefaultmonitor) | &nbsp; | &nbsp; |
 | [SecondScreen](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#secondscreen) | &nbsp; | Sets default second-monitor configuration. |
 | [Show-GenXDevCmdlet](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#show-genxdevcmdlet) | cmds | Displays GenXdev PowerShell modules with their cmdlets and aliases. |
 | [Show-Verb](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#show-verb) | showverbs | Shows a short alphabetical list of all PowerShell verbs. |
 | [SideBySide](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#sidebyside) | &nbsp; | Sets default side-by-side configuration. |
+| [Test-UnattendedMode](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#test-unattendedmode) | &nbsp; | Detects if PowerShell is running in unattended/automated mode |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1562,6 +1565,7 @@ limitations under the License.
 | [EnsureNuGetAssembly](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#ensurenugetassembly) | &nbsp; | Downloads and loads .NET assemblies from NuGet packages based on package key or ID. |
 | [Get-ApparentSizeAtArmLength](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-apparentsizeatarmlength) | &nbsp; | Calculates the apparent size of an object at arm's length. |
 | [Get-AtEyeLengthSizeInMM](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-ateyelengthsizeinmm) | &nbsp; | Calculates the apparent size in mm of an object at arm's length, based on its actual size and distance. |
+| [Get-AudioDeviceNames](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-audiodevicenames) | &nbsp; | Retrieves the names of available audio devices for microphone or desktop audio capture. |
 | [Get-BuoyantForceByDisplacedVolumeAndDensity](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-buoyantforcebydisplacedvolumeanddensity) | &nbsp; | Calculates buoyant force. |
 | [Get-CentripetalAccelerationByVelocityAndRadius](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-centripetalaccelerationbyvelocityandradius) | &nbsp; | Calculates centripetal acceleration. |
 | [Get-DefaultWebLanguage](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#get-defaultweblanguage) | &nbsp; | Gets the default web language key based on the system's current language settings. |
@@ -1594,12 +1598,14 @@ limitations under the License.
 | [Initialize-SearchPaths](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#initialize-searchpaths) | &nbsp; | Initializes and configures system search paths for package management. |
 | [Invoke-OnEachGenXdevModule](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#invoke-oneachgenxdevmodule) | foreach-genxdev-module-do | Executes a script block on each GenXdev module in the workspace. |
 | [Out-Serial](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#out-serial) | &nbsp; | Sends a string to a serial port |
-| [Receive-RealTimeSpeechToText](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#receive-realtimespeechtotext) | &nbsp; | &nbsp; |
+| [Receive-RealTimeSpeechToText](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#receive-realtimespeechtotext) | &nbsp; | Converts real-time audio input to text using Whisper AI model. |
+| [Remove-JSONComments](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#remove-jsoncomments) | &nbsp; | Removes comments from JSON content. |
 | [resetdefaultmonitor](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#resetdefaultmonitor) | &nbsp; | &nbsp; |
 | [SecondScreen](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#secondscreen) | &nbsp; | Sets default second-monitor configuration. |
 | [Show-GenXDevCmdlet](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#show-genxdevcmdlet) | cmds | Displays GenXdev PowerShell modules with their cmdlets and aliases. |
 | [Show-Verb](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#show-verb) | showverbs | Shows a short alphabetical list of all PowerShell verbs. |
 | [SideBySide](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#sidebyside) | &nbsp; | Sets default side-by-side configuration. |
+| [Test-UnattendedMode](https://github.com/genXdev/GenXdev.Helpers/tree/main?tab=readme-ov-file#test-unattendedmode) | &nbsp; | Detects if PowerShell is running in unattended/automated mode |
 
 📖 [Full Documentation](https://github.com/genXdev/GenXdev.Helpers/blob/main/README.md) | ↑ [Back to Module Overview](#module-overview)
 
@@ -1952,7 +1958,7 @@ limitations under the License.
 | [Open-WebbrowserSideBySide](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#open-webbrowsersidebyside) | wbn | &nbsp; |
 | [Resume-WebbrowserTabVideo](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#resume-webbrowsertabvideo) | wbvideoplay | Resumes video playback in a YouTube browser tab. |
 | [Select-WebbrowserTab](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#select-webbrowsertab) | st | Selects a browser tab for automation in Chrome or Edge. |
-| [Set-BrowserVideoFullscreen](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-browservideofullscreen) | fsvideo | &nbsp; |
+| [Set-BrowserVideoFullscreen](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-browservideofullscreen) | fsvideo | Sets the first video element on the current webpage to fullscreen mode by manipulating its CSS properties and DOM position. |
 | [Set-RemoteDebuggerPortInBrowserShortcuts](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-remotedebuggerportinbrowsershortcuts) | &nbsp; | Updates browser shortcuts to enable remote debugging ports. |
 | [Set-WebbrowserTabLocation](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-webbrowsertablocation) | lt, Nav | Navigates the current webbrowser tab to a specified URL. |
 | [Show-WebsiteInAllBrowsers](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#show-websiteinallbrowsers) | &nbsp; | &nbsp; |
@@ -1995,7 +2001,7 @@ limitations under the License.
 | [Open-WebbrowserSideBySide](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#open-webbrowsersidebyside) | wbn | &nbsp; |
 | [Resume-WebbrowserTabVideo](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#resume-webbrowsertabvideo) | wbvideoplay | Resumes video playback in a YouTube browser tab. |
 | [Select-WebbrowserTab](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#select-webbrowsertab) | st | Selects a browser tab for automation in Chrome or Edge. |
-| [Set-BrowserVideoFullscreen](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-browservideofullscreen) | fsvideo | &nbsp; |
+| [Set-BrowserVideoFullscreen](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-browservideofullscreen) | fsvideo | Sets the first video element on the current webpage to fullscreen mode by manipulating its CSS properties and DOM position. |
 | [Set-RemoteDebuggerPortInBrowserShortcuts](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-remotedebuggerportinbrowsershortcuts) | &nbsp; | Updates browser shortcuts to enable remote debugging ports. |
 | [Set-WebbrowserTabLocation](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#set-webbrowsertablocation) | lt, Nav | Navigates the current webbrowser tab to a specified URL. |
 | [Show-WebsiteInAllBrowsers](https://github.com/genXdev/GenXdev.Webbrowser/tree/main?tab=readme-ov-file#show-websiteinallbrowsers) | &nbsp; | &nbsp; |
